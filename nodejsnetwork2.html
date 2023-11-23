@@ -1,0 +1,33 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="//unpkg.com/three"></script>
+  <script src="//unpkg.com/three-spritetext"></script>
+
+  <script src="//unpkg.com/3d-force-graph"></script>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+
+  <script>
+    const Graph = ForceGraph3D()
+      (document.getElementById('3d-graph'))
+        .jsonUrl('../datasets/substance_abuse_logDice_673.json')
+        .nodeAutoColorBy('group')
+        .nodeThreeObject(node => {
+          const sprite = new SpriteText(node.id);
+          sprite.material.depthWrite = true; // make sprite background transparent
+          sprite.color = node.color;
+          sprite.textHeight = 12;
+          return sprite;})
+        .cooldownTicks(250)        
+        .linkDirectionalParticles("logDice")
+        .linkDirectionalParticleSpeed(d => Math.sqrt(d.logDice)*0.001)
+        .linkDirectionalParticleWidth(3)
+        .d3Force("link", d3.forceLink().strength(d => d.logDice*2))
+        ;
+
+  </script>
+</body>
