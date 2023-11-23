@@ -34,9 +34,18 @@
               </h2>
             </header>
             <p>
-            <iframe width="100%" height="1000" frameborder="0"
-  src="https://observablehq.com/embed/c344077c337f7984?cells=chart"></iframe>
-              </br></br>
+<div id="observablehq-chart-ca35dc83"></div>
+<p>Credit: <a href="https://observablehq.com/d/c344077c337f7984">alcohol sub-network (3rd order, .985 logDice, simplePOS). by hannaschmueck</a></p>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+import define from "https://api.observablehq.com/d/c344077c337f7984.js?v=4";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-ca35dc83"));
+});
+</script>
+          </p>
 
               <h2>LOWO-MI4-500-nofilter
               </h2>
