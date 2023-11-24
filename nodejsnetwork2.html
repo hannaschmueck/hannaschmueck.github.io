@@ -30,13 +30,15 @@
     })
     (document.getElementById('3d-graph'))
       .jsonUrl('../datasets/substance_abuse_logDice_673.json')
+      
       .nodeAutoColorBy('group')
-      .nodeVal('degree')
+      .nodeVal(node => node.betweenness * 100)
       .nodeThreeObject(node => {
         const nodeEl = document.createElement('div');
         nodeEl.textContent = node.id;
-        nodeEl.style.color = node.color;
+        nodeEl.style.color = (node.color);
         nodeEl.style.fontSize = "14px";
+        nodeEl.style.fontFamily = "Tahoma"
         nodeEl.className = 'node-label';
         return new CSS2DObject(nodeEl);
       })
@@ -45,7 +47,9 @@
       .linkDirectionalParticles("logDice")
       .linkDirectionalParticleSpeed(d => Math.sqrt(d.logDice)*0.001)
       .linkDirectionalParticleWidth(3)
-      .d3Force("link", d3.forceLink().strength(d => d.logDice*2))
+      .d3Force("link", d3.forceLink().strength(d => d.logDice))
+      
+      
 
         
     ;
