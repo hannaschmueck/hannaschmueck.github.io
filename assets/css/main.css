@@ -2120,7 +2120,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				height: 100%;
+				width: 100%;
 			}
 
 		.image.fit {
