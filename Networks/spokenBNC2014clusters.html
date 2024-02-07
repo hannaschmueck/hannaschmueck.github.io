@@ -14,7 +14,7 @@
   <script>
     const Graph = ForceGraph3D()
       (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/spoken BNC 2014_clustered_1.json')
+        .jsonUrl('../datasets/spoken BNC2014_clustered_1.json')
         .nodeAutoColorBy('group')
         .linkWidth((d => d.logDice/2))
         .nodeThreeObject(node => {
