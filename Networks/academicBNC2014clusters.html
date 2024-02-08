@@ -26,13 +26,17 @@
     import { CSS2DRenderer, CSS2DObject } from '//unpkg.com/three/examples/jsm/renderers/CSS2DRenderer.js';
 
     const Graph = ForceGraph3D({
+      
       extraRenderers: [new CSS2DRenderer()]
     })
     (document.getElementById('3d-graph'))
-      .jsonUrl('../datasets/spoken BNC2014_clustered_small.json')
       
+      .jsonUrl('../datasets/Aca_O11_03_dice_09_ΔPf_09__allstats_lemma_edges_small.json')
+      
+    
       .nodeAutoColorBy('group')
       .nodeVal(node => node.betweenness * 100)
+      
       .nodeThreeObject(node => {
         const nodeEl = document.createElement('div');
         nodeEl.textContent = node.id;
@@ -42,14 +46,14 @@
         nodeEl.className = 'node-label';
         return new CSS2DObject(nodeEl);
       })
+      
+      
       .nodeThreeObjectExtend(true)
       .cooldownTicks(250)        
       .linkDirectionalParticles("dice")
       .linkDirectionalParticleSpeed(d => Math.sqrt(d.dice)*0.01)
       .linkDirectionalParticleWidth(3)
       .d3Force("link", d3.forceLink().strength(d => d.dice))
-      
-      
 
         
     ;
