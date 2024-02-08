@@ -29,7 +29,8 @@
       extraRenderers: [new CSS2DRenderer()]
     })
     (document.getElementById('3d-graph'))
-      .jsonUrl('../datasets/spoken BNC2014_clustered_small.json')
+      .jsonUrl('../datasets/spoken BNC2014_clustered_1.json')
+
       
       .nodeAutoColorBy('group')
       .nodeVal(node => node.betweenness * 100)
