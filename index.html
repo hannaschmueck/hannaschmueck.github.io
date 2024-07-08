@@ -13,6 +13,44 @@
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
+
+
+<style>
+  .collapsible {
+    background-color: #211c1b24;
+    color: inherit;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    font-family: inherit;
+    border-radius: 5px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #2e2e2e;
+    color: #f1f1f1;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    font-family: inherit;
+    border-radius: 5px;
+  }
+
+  .center-container {
+        text-align: center;
+    }
+
+  </style>
+
 <body class="is-preload">
     <!-- Header -->
     <header id="header">
@@ -121,8 +159,12 @@
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
-                <h4>UCREL - 03.06.2021, Lancaster University(online)</h4>
-                <p> I gave a talk on "Traversing Language Structures: Creating, Exploring and Visualising Large Scale
+                <h4>UCREL - 03.06.2021, Lancaster University (online)</h4>
+
+                <button class="collapsible">Traversing Language Structures: Creating, Exploring and Visualising Large Scale
+                  Linguistic Networks</button>
+                <div class="content">
+                  <p> </br>I gave a talk on "Traversing Language Structures: Creating, Exploring and Visualising Large Scale
                     Linguistic Networks" as part of <a href="https://ucrel.lancs.ac.uk/crs/" target="_blank">the UCREL
                         seminar series</a>. </br> Abstract: How does the language we are surrounded by differ from the
                     language in our Mental Lexicon? We try to explore this question by developing new methods to
@@ -136,55 +178,131 @@
                     observable when starting an analysis using pre-determined words of interest. In this presentation,
                     the methodology and overarching justifications for the project will be presented alongside a
                     demonstration of several custom network visualisations in Cytoscape (Shannon et al., 2003) and a
-                    case study exploring properties of the BNC2014 Baby+ and SWOW-EN" </br> A video of my talk can be
+                    case study exploring properties of the BNC2014 Baby+ and SWOW-EN. </br></p>
+                </div>
+
+                 <p></br> A video of my talk can be
                     accessed here:</br></br> <iframe width="560" height="315"
                         src="https://www.youtube.com/embed/6FYjih_TIDQ" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe> </p>
                 <h4>'Annotations' Summer School / École thématique d’été « Annotations » - 30.05.-03.06.2022,
                     Banyuls-sur-Mer</h4>
-                <p> I gave a talk titled 'Network Visualisations Of Linguistic Relationships In Large Datasets: A Case
-                    Study Exploring The Context Of <i>Normal</i> In British English at the <a
-                        href="http://annotations-2022.llf-paris.fr/index.php?langue=en" target="_blank">École thématique
-                        d’été « Annotations »</a> in France. This conference/summer school was organised by GDR
-                    Lift/Sorbonne. </p>
+
+                    <button class="collapsible">Lessons Learnt from Graphing Linguistic Connections</button>
+                    <div class="content">
+                      <p> </br>I gave a talk titled 'Lessons Learnt from Graphing Linguistic Connections' at the <a
+                            href="http://annotations-2022.llf-paris.fr/index.php?langue=en" target="_blank">École thématique
+                            d’été « Annotations »</a> in France. This conference/summer school was organised by GDR
+                        Lift/Sorbonne. </p>
+                    </div>
+                  </br>
                 <h4>ICAME43 - 27.-30.07.2022, Cambridge, UK</h4>
                 <p> <span class="image left"><img src="images/fulls/ICAME43.jpg" alt="" /></span> </br> I presented
                     methodological findings from my PhD project at the 43rd Annual Conference of the International
                     Computer Archive for Modern and Medieval English <a href="https://www.icame43.com"
                         target="_blank">(ICAME) </a> </br> My abstract can be found <a
                         href="https://icame.info/wp-content/uploads/ICAME43_Abstracts_v2.pdf" target="_blank"> here </a>
-                    (page 152). </br> </br> </br></br></br>
+                    (page 152). </br> </br> </p>
+                  
+                    <button class="collapsible">Network Visualisations Of Linguistic Relationships In Large Datasets: A Case
+                      Study Exploring The Context Of <i>Normal</i> In British English</button>
+                    <div class="content">
+                      <p> </br>In the wake of many 'new normals' in linguistics, new tools to explore linguistic data are
+                        steadily being proposed and implemented. This study aims to showcase one of these
+                        novel approaches: large scale linguistic network visualisations and how they can shed
+                        light on the interplay between language production and language perception. For the
+                        purpose of demonstrating strengths and limitations of this approach we carry out a case
+                        study on the basis of the following research questions:
+                        What is the collocational embedding of the word normal in spoken British English?
+                        What shape might the associative embedding of the word normal in native BrE
+                        speaker's mental lexicon take?
+                        In order to explore this, a multidisciplinary approach is taken that spans corpus
+                        linguistics, psycholinguistics and graph theory. The exact method employed to investigate
+                        word embeddings/context here is based on a custom-built python scripts used to pre-
+                        process and weight corpus data as well as word association data. First sentence-span
+                        tuples from the spoken BNC 2014 (Love et al, 2017) are extracted while retaining their
+                        directionality – an often underreported yet crucial property (Michelbacher et al., 2011;
+                        Gries; 2013, McConnell & Blumenthal-Dramé, 2019) – and the corresponding MI2 scores
+                        are calculated. Then the Small World of Words word association database (SWOW; De
+                        Deyne et al, 2019) is processed and filtered to only contain responses by British
+                        participants for comparability with the BNC. The obtained collocations (MI2 ≥ 10) and
+                        association pairs (Association weight ≥ 1) are fed to Cytoscape (Shannon et al., 2003) via
+                        py4cytoscape. The visual representations of the BNC and SWOW-UK networks
+                        surrounding the word normal (Figures 1 and 2) are created on the basis of an edge-
+                        weighted spring directed layout (Kamada & Kawai, 1989) which roughly maps MI2 scores
+                        and association weights onto the displayed distances between words. Lastly, a range of
+                        graph theoretical properties for both networks are extracted and interpreted.
+                        The results indicate that both the complete SWOW UK network and the complete
+                        Spoken BNC 2014 network exhibit small world properties (Watts & Strogatz, 1998).
+                        Qualitatively speaking, the collocations surrounding normal in the spoken BNC 2014 are
+                        generally sparser and the resulting subnetwork is denser than the one emerging from
+                        word associations. In the BNC, key topics surrounding the term are personal relationships
+                        and looks. These are organised around a strong network core composed of discourse
+                        markers and frequent verbs such as like, really, well etc. The word association dataset,
+                        however, looks markedly different and almost fractures into five distinct topic areas:
+                        antonyms of normality, society, health, abstract notions of normality, and discourse
+                        surrounding drugs. This suggests discrepancies between the mental association
+                        processes surrounding abstract terms such as normal and usage of such terms in everyday
+                        conversation.
+                        Lastly, further applications of this methodology are briefly remarked upon. These
+                        include optimising language pedagogy practices (Xiao & McEnery, 2006; Webb &
+                        Kagimoto, 2009) via assessing how central certain terms are to a learner's language
+                        network and exploring network cliques which is useful for lexicography (Gablasova et al.,
+                        2017; Simpson-Vlach & Ellis, 2010) and researching language change (Chen et al., 2018).</p>
+                    </div>
+                  </br></br></br>
                 <h4>CL2023 - 03.-06.07.2023, Lancaster, UK</h4>
                 <p> <span class="image right"><img src="images/fulls/CL2023.jpg" alt="CL2023 talk" /></span> </br> At
                     CL2023 I presented two papers: <i>Two approaches to collocation networks: GraphColl and LLN </i>
                     (with Vaclav Brezina) and <i>Deconstructing Discourses – A network-based approach to analysing Lone
                         Wolf Terrorism in British Newspapers</i> (see <a
                         href="https://www.lancaster.ac.uk/cl2023/wp-content/blogs.dir/787/files/2023/07/CL-2023-Book-of-Abstracts-02.07.2023.docx"
-                        target="_blank">Book of Abstracts</a>)<br> </br> Abstract (I): This paper compares two
-                    approaches to the creation and analysis of collocation networks: the GraphColl function currently
-                    available through #LancsBox and #LancsBox X (Brezina et al., 2020) and a Python and Cytoscape-based
-                    (Shannon et al., 2003) custom pipeline for visualisation and graph theoretical analysis of
-                    corpus-wide linguistic networks (LLN). Collocation networks are used to visualise discourse
-                    relationships, "aboutness" of a text or discourse, semantic relations (Pecina, 2010; Xiao & McEnery,
-                    2006; Brezina, 2016; Baker, 2016; Brezina et al., 2015) as well as lexicogrammatical features
-                    (McEnery & Brezina, 2019). GraphColl is an accessible tool to view collocational relationships
-                    localised to a particular area of discourse; it allows selecting a particular set of search terms,
-                    association measure parameters, window spans and thresholds, and retains information on the type,
-                    lemma and POS level before plotting collocation networks. LLN, on the other hand, is the result of a
-                    methodological triangulation (Noble & Heale, 2019; Tucker & Ernestus, 2016) and integration
-                    synthesis (Wyatt, 2022) of concepts from corpus linguistics and graph theory. A core difference is
-                    that LLN yields graph theoretical parameters that describe all collocations found in the entire
-                    corpus thus producing much larger networks. It also incorporates a graph theoretical exploration
-                    e.g. in order to compare different corpora via their collocational density, the average distance
-                    between their collocates, etc. Beyond these global descriptions, LLN also allows for clustering to
-                    explore different 'layers of discourse'. This paper will provide an in-depth demonstration of how
-                    the collocation networks generated by the two tools differ. The case study will focus on the topic
-                    of substance abuse across discourses represented in the BNC2014 (Brezina et al., 2021; Love et al.,
-                    2017). The implications for corpus-based discourse analysis will be discussed. </br> <iframe
-                        allow="autoplay; fullscreen" height="282" width="500"
-                        src="https://estream.lancaster.ac.uk/Embed.aspx?id=67871&amp;code=dQ~LNA0a5GuIgNJJcjRP46lecKQSkO99c"
-                        frameborder="0" allowfullscreen></iframe> </br> Abstract (II). The aim of this paper is to
+                        target="_blank">Book of Abstracts</a>).</br>I also helped organise and chair sessions.  </br> </p>
+
+      
+                          <button class="collapsible">Two approaches to collocation networks: GraphColl and LLN </i>
+                            (with Vaclav Brezina)</button>
+                          <div class="content">
+                            <p>
+                            </br>
+                            Abstract (I): This paper compares two
+                            approaches to the creation and analysis of collocation networks: the GraphColl function currently
+                            available through #LancsBox and #LancsBox X (Brezina et al., 2020) and a Python and Cytoscape-based
+                            (Shannon et al., 2003) custom pipeline for visualisation and graph theoretical analysis of
+                            corpus-wide linguistic networks (LLN). Collocation networks are used to visualise discourse
+                            relationships, "aboutness" of a text or discourse, semantic relations (Pecina, 2010; Xiao & McEnery,
+                            2006; Brezina, 2016; Baker, 2016; Brezina et al., 2015) as well as lexicogrammatical features
+                            (McEnery & Brezina, 2019). GraphColl is an accessible tool to view collocational relationships
+                            localised to a particular area of discourse; it allows selecting a particular set of search terms,
+                            association measure parameters, window spans and thresholds, and retains information on the type,
+                            lemma and POS level before plotting collocation networks. LLN, on the other hand, is the result of a
+                            methodological triangulation (Noble & Heale, 2019; Tucker & Ernestus, 2016) and integration
+                            synthesis (Wyatt, 2022) of concepts from corpus linguistics and graph theory. A core difference is
+                            that LLN yields graph theoretical parameters that describe all collocations found in the entire
+                            corpus thus producing much larger networks. It also incorporates a graph theoretical exploration
+                            e.g. in order to compare different corpora via their collocational density, the average distance
+                            between their collocates, etc. Beyond these global descriptions, LLN also allows for clustering to
+                            explore different 'layers of discourse'. This paper will provide an in-depth demonstration of how
+                            the collocation networks generated by the two tools differ. The case study will focus on the topic
+                            of substance abuse across discourses represented in the BNC2014 (Brezina et al., 2021; Love et al.,
+                            2017). The implications for corpus-based discourse analysis will be discussed. </br> 
+                            <div class="center-container">
+                              <iframe
+                              allow="autoplay; fullscreen" height="282" width="500"
+                              src="https://estream.lancaster.ac.uk/Embed.aspx?id=67871&amp;code=dQ~LNA0a5GuIgNJJcjRP46lecKQSkO99c"
+                              frameborder="0" allowfullscreen></iframe>
+                          </div></br> </p>
+                          </div>
+                        </br>
+
+                        
+                        <button class="collapsible">Deconstructing Discourses – A network-based approach to analysing Lone
+                          Wolf Terrorism in British Newspapers</button>
+                        <div class="content">
+                          <p>
+                          </br>
+                          Abstract (II). The aim of this paper is to
                     showcase interdisciplinary novel approaches to collocation network analysis via a case study on lone
                     wolf terrorism discourses in the British press using the Lone Wolf Corpus (LWC; Malone, 2020).
                     Aboutness, special functions of words, and semantic relations are highly relevant when examining
@@ -209,43 +327,58 @@
                     Coulthard, 1975; Dong & Buckingham, 2018) .This underlines the notion that the application of graph
                     theoretical methods to language data displays both theoretical and methodological potential
                     (Vitevitch & Goldstein, 2014). [1] Here taken to represent the lexicalised end of the
-                    lexicogrammatical spectrum. </br> <iframe allow="autoplay; fullscreen" height="282" width="500"
-                        src="https://estream.lancaster.ac.uk/Embed.aspx?id=67913&amp;code=e9~g5OZF3y0OZzlMDlza5Eks5NFkYgpFb"
-                        frameborder="0" allowfullscreen></iframe> </br> I also helped organise and chair sessions. </br>
+                    lexicogrammatical spectrum. </br>   
+                    
+                    <div class="center-container">
+                    <iframe allow="autoplay; fullscreen" height="282" width="500"
+                    src="https://estream.lancaster.ac.uk/Embed.aspx?id=67913&amp;code=e9~g5OZF3y0OZzlMDlza5Eks5NFkYgpFb"
+                    frameborder="0" allowfullscreen></iframe> </div></br> </p>
+                        </div>
+                      </br>
+
                 <h4>Edge Hill Corpus Research Group - 14.12.2023</h4>
                 <p> <span class="image left"><img src="images/fulls/EHRG2023.jpg" alt="Edge Hill talk 2023" /></span>
                     Daniel Malone (Edge Hill) and I presented on 'A pack of lone wolves? Exploring the nexus between the
                     lone-wolf terrorist, Al-Qaeda, and ISIS in the British Press' as part of the Edge Hill Corpus
                     Research Group </i> (see <a href="https://sites.edgehill.ac.uk/crg/past/" target="_blank">EHCRG
-                        website</a>)<br> </br> Abstract: </br> Following recent events in Belgium and Israel, the
-                    lone-wolf terrorist re-emerged in media reportage, with President Joe Biden and former GCHQ Director
-                    Sir David Omand expressing concerns over potential attacks in the USA and UK. Days later, Belgian
-                    Prime Minister Alexander De Croo described the neutralised Brussels shooter as “probably a lone
-                    wolf,” thus aiming to downplay the risk of subsequent incidents. Together, these instances exemplify
-                    that by shaping a “reality” (Entman, 2004), (in)security discourses can amplify or downplay a
-                    terrorist threat, in turn reflecting and/or influencing public perception and potentially guiding
-                    policy responses. Historically, the lone wolf has been associated with different movements, ranging
-                    from the propaganda of the deed in the 19th Century to the leaderless resistance of
-                    white-supremacist groups in the 1980s and 90s. More recently, it is within the domain of Islamist
-                    terrorism, often dominated by Al-Qaeda and ISIS, where the lone wolf has become increasingly
-                    associated, especially in the British press. In this joint presentation, we discuss the analytical
-                    approaches and results from our analysis of discourses surrounding the lone-wolf terrorist, al
-                    Qaeda, and ISIS in three diachronic sub-corpora of the Lone Wolf Corpus (Malone, 2020), a
-                    compilation of British Press articles from 2000 to 2019. In a unique methodological combination, we
-                    employed large-scale collocation networks and topical clustering to examine shifting discourses
-                    through collocational clusters, and applied a corpus-based critical discourse analysis to examine
-                    representations of the Al-Qaeda-ISIS nexus. Hanna introduces the methodology employed to generate
-                    topical clusters and discusses collocational changes and constants in emerging discourses
-                    surrounding the lone-wolf terrorist. The resulting patterns present a discursive shift from clusters
-                    related to causative factors (e.g., a mental health subcluster), towards the internationalisation
-                    and institutionalisation of lone-wolf terrorism, and finally to response management in the form of
-                    sentencing and punitive actions (e.g., a court proceedings/prison subcluster). Reporting on his
-                    corpus-based critical discourse analysis, Daniel presents the emergent representations surrounding
-                    co-occurrences of the node AL QAEDA with ISIS. These discourses were categorised into four modes of
-                    representation of presented relationship-types: Convergence, Association, Dissociation, and
-                    Divergence. These modes contributed to surrounding (in)security discourses that at times equate,
-                    promote and/or relegate different entities in a continual reshuffling of the threat hierarchy; a
-                    process termed here enmity reimagining. </br> </br></br>
+                        website</a>)<br> </br> </p>
+                        
+                        <button class="collapsible">A pack of lone wolves? Exploring the nexus between the
+                          lone-wolf terrorist, Al-Qaeda, and ISIS in the British Press</button>
+                        <div class="content">
+                          <p>
+                          Abstract: </br> Following recent events in Belgium and Israel, the
+                          lone-wolf terrorist re-emerged in media reportage, with President Joe Biden and former GCHQ Director
+                          Sir David Omand expressing concerns over potential attacks in the USA and UK. Days later, Belgian
+                          Prime Minister Alexander De Croo described the neutralised Brussels shooter as “probably a lone
+                          wolf,” thus aiming to downplay the risk of subsequent incidents. Together, these instances exemplify
+                          that by shaping a “reality” (Entman, 2004), (in)security discourses can amplify or downplay a
+                          terrorist threat, in turn reflecting and/or influencing public perception and potentially guiding
+                          policy responses. Historically, the lone wolf has been associated with different movements, ranging
+                          from the propaganda of the deed in the 19th Century to the leaderless resistance of
+                          white-supremacist groups in the 1980s and 90s. More recently, it is within the domain of Islamist
+                          terrorism, often dominated by Al-Qaeda and ISIS, where the lone wolf has become increasingly
+                          associated, especially in the British press. In this joint presentation, we discuss the analytical
+                          approaches and results from our analysis of discourses surrounding the lone-wolf terrorist, al
+                          Qaeda, and ISIS in three diachronic sub-corpora of the Lone Wolf Corpus (Malone, 2020), a
+                          compilation of British Press articles from 2000 to 2019. In a unique methodological combination, we
+                          employed large-scale collocation networks and topical clustering to examine shifting discourses
+                          through collocational clusters, and applied a corpus-based critical discourse analysis to examine
+                          representations of the Al-Qaeda-ISIS nexus. Hanna introduces the methodology employed to generate
+                          topical clusters and discusses collocational changes and constants in emerging discourses
+                          surrounding the lone-wolf terrorist. The resulting patterns present a discursive shift from clusters
+                          related to causative factors (e.g., a mental health subcluster), towards the internationalisation
+                          and institutionalisation of lone-wolf terrorism, and finally to response management in the form of
+                          sentencing and punitive actions (e.g., a court proceedings/prison subcluster). Reporting on his
+                          corpus-based critical discourse analysis, Daniel presents the emergent representations surrounding
+                          co-occurrences of the node AL QAEDA with ISIS. These discourses were categorised into four modes of
+                          representation of presented relationship-types: Convergence, Association, Dissociation, and
+                          Divergence. These modes contributed to surrounding (in)security discourses that at times equate,
+                          promote and/or relegate different entities in a continual reshuffling of the threat hierarchy; a
+                          process termed here enmity reimagining. </br>  </p>
+                        </div>
+                      </br>
+
                 <h4>Digital Humanities Forum - 08.02.2024, Lancaster University</h4>
                 <p> <span class="image right"><img src="images/fulls/DH2024.jpg"
                             alt="DH Forum Presentation 2024" /></span> I presented parts of my ongoing work on network
@@ -260,83 +393,103 @@
                     Vigo. The first paper is a collaboration with Samuel Hollands (Sheffield University) titled
                     <i>Towards a Pipeline Approach to Corpus Compilation: Challenges and Solutions </i> and the second
                     paper is single-authored titled <i> Graphing Registers - Exploring Register Differences via
-                        Collocational Networks in the BNC2014 </i> </br></br> Abstract (I): </br>Despite enormous
-                    financial and time investments in many modes of corpus compilation there is often a lack in
-                    consistency with regards to corpus processing, format, and structure (Demmen, 2020; Diemer et al.,
-                    2016, Reppen, 2022). Issues spanning domains and impacting comparability of spoken and written
-                    corpora (Lindquist & Levin, 2000) include irregular metadata formats, inconsistent data structures,
-                    varied transcription approaches amongst others. In the domain of speech corpora, we see additional
-                    issues such as methodologically unjustified variation in audio formats. This paper aims to explore
-                    ways in which both written and spoken corpus compilation can be streamlined and, as an example,
-                    which best practices can be employed for constructing eBook corpora. Recommendations relevant to
-                    both researchers working with spoken and written corpora are provided in order to highlight the
-                    importance of working towards a methodological conversion in these two domains. </br>Within this
-                    study we are proposing the Python Corpus Pipeline (PCPi) to streamline corpus compilation via
-                    programmatic blueprints for ideal corpus structures. This allows researchers to automatically format
-                    corpora into a regular schema and encourages conscious decisions regarding limitations which often
-                    occur as a result of the absence of clear guidelines in the corpus creation phase. Specific
-                    recommendations are made to address issues in the spoken corpus domain such as varied microphone
-                    setups, irreversible acoustic post-processing of recordings, and inconsistent use of audio
-                    filetypes. For example, low-bitrate MP3, whilst near universally accepted as a very effective form
-                    of signal compression, is designed to remove as much information from an audio signal as possible
-                    whilst trying to preserve the human perception of the signal from a psychoacoustic perspective
-                    (Watkinson, 2012: 169-227). Therefore, whilst to the human ear the signal may appear unaltered, the
-                    information loss caused by signal compression can pose challenges from the perspective of speech
-                    scientists such as speech analytics for emotion recognition (Campbell, 2002; Lotz, 2017).</br>In the
-                    written domain we provide a worked example from the currently ongoing compilation of the
-                    Lancaster-Northern Arizona Corpus of American English (LANA). Even straightforward tasks such as
-                    removing the front and backmatter pose significant problems when working with epub files that do not
-                    follow a rigorous standard. This is the case since long acknowledgements or reading samples run the
-                    risk of mimicking the style of the desired main body of the text and chapter breaks are not reliably
-                    marked. The issue of formatting inconsistencies almost always occurs when eBooks are sourced from
-                    multiple publishers. As for the fiction section of LANA only 664 out of 1325 books available (50.1%)
-                    contained explicit and reliable chapter breaks. This paper describes the subroutine of the PCPi
-                    framework. This splits individual files into paragraphs and checks their contents in several passes
-                    to classify them as belonging to the main body of the text or not using a window-based approach,
-                    resulting in 1133 (85.5%) salvageable eBooks. </br>By advocating for standardized practices and
-                    exemplifying its application in eBook corpus construction, this study contributes to the ongoing
-                    efforts aimed at fostering methodological coherence within the diverse landscape of corpus
-                    linguistics through the oculus of the PCPi framework. </br></br>Abstract (II): </br>One of the many
-                    ways in which register differences and linguistic nuances within different fields of discourse can
-                    be explored and compared is via collocations, here broadly defined as a commonly co-occurring group
-                    or set of words (Barnbrook et al., 2013; Stulpinaitė et al., 2016). Previous research shows that
-                    register can be used to partially predict collocations in American English (Berber Sardinha, 2017),
-                    and underscores the significance of investigating how linguistic patterns contribute to the
-                    distinctive characteristics of various registers. This paper aims to explore register differences in
-                    the BNC2014 (v2; Love et al, 2017; Brezina et al., 2021) through the lens of collocational clusters
-                    derived from subcorpus-wide collocation networks Acknowledging the often-conflicting definitions of
-                    register and genre, this study adopts Biber and Conrad's (2019) interchangeable use of these terms,
-                    employing subcorpora of the BNC2014 as proxies for registers. The questions raised in this paper are
-                    how well collocation networks can capture register variation, which registers in the BNC2014 are the
-                    most collocationally similar/dissimilar, and what unique collocational clusters emerge from each
-                    subcorpus. In order to address these, a multidisciplinary approach spanning corpus linguistics and
-                    graph theory is used to generate networks of all collocations within each of the 8 subcorpora of the
-                    BNC: Academic Language, E-Language, Fiction, Magazines, Newspapers, Written-To-Be-Spoken, Official
-                    Documents, and Spoken Language. Following a methodology akin to Karaminis et al. (2023), the
-                    collocations are required to lie above both a ΔPforward and logDice threshold to ensure robustness
-                    in terms of the forwards predictability and coherence of the collocations. The large linguistic
-                    networks (LLNs) generated on the basis of these subcorpora represent the collocational profiles,
-                    structure, and aboutness (Pecina, 2010; Xiao & McEnery, 2006; Brezina, 2016; Baker, 2016; Brezina et
-                    al., 2015) of the respective registers in the BNC2014. MCODE clustering (Bader & Hogue, 2003) is
-                    employed in order to identify the collocationally most closely-interconnected clusters unique to
-                    each register. 
-                    <span class="image left"> <img src="images/fulls/ICAME45_Fig1.png"
-                      alt="ICAME presentations 2024"/></span>
-                      Employing this methodology serves two purposes: Firstly, it allows for a systematic
-                    and fully interpretable exploration of large-scale differences in collocational tendencies among
-                    different registers of modern British English, and, secondly, it showcases which new avenues for
-                    interpretation a novel approach to collocation visualisation can bring. On a broader scale, notable
-                    collocational convergence is observed, with the highest overlap occurring between Magazines and News
-                    (20.2%), Spoken and Written-to-be-Spoken (19.9%), and E-Language and Spoken (19.6%). Conversely, the
-                    lowest overlap is evident between Official Documents and Written-to-be-Spoken (2.0%), Academic
-                    Language and Written-to-be-Spoken (2.3%), and Fiction and Official Documents (3.2%). 
-                    <span class="image right"> <img
-                      src="images/fulls/ICAME45_Fig2.png" alt="ICAME presentations 2024" /></span> Figures 1 and 2
-                    show key clusters from the opposing domains of Official Documents and Written-To-Be-Spoken
-                    respectively. This novel multidisciplinary approach integrating corpus linguistics and graph theory
-                    with MCODE clustering presents a new way for systematically exploring register variation. </br>
-                    <span style="font-size:0.7em">Figure 1: Subcluster containing collocates unique to Official Documents in the BNC2014. </br> Figure 2: Subcluster containing collocates unique to Written-To-Be-Spoken in the BNC2014. </br></span></p>
-            </section>
+                        Collocational Networks in the BNC2014 </i> </br></br>
+
+                      </p>
+                        
+                      <button class="collapsible">Towards a Pipeline Approach to Corpus Compilation: Challenges and Solutions 
+                        (with Samuel Hollands)</button>
+                      <div class="content">
+                        <p>
+                          Abstract (I): </br>Despite enormous
+                          financial and time investments in many modes of corpus compilation there is often a lack in
+                          consistency with regards to corpus processing, format, and structure (Demmen, 2020; Diemer et al.,
+                          2016, Reppen, 2022). Issues spanning domains and impacting comparability of spoken and written
+                          corpora (Lindquist & Levin, 2000) include irregular metadata formats, inconsistent data structures,
+                          varied transcription approaches amongst others. In the domain of speech corpora, we see additional
+                          issues such as methodologically unjustified variation in audio formats. This paper aims to explore
+                          ways in which both written and spoken corpus compilation can be streamlined and, as an example,
+                          which best practices can be employed for constructing eBook corpora. Recommendations relevant to
+                          both researchers working with spoken and written corpora are provided in order to highlight the
+                          importance of working towards a methodological conversion in these two domains. </br>Within this
+                          study we are proposing the Python Corpus Pipeline (PCPi) to streamline corpus compilation via
+                          programmatic blueprints for ideal corpus structures. This allows researchers to automatically format
+                          corpora into a regular schema and encourages conscious decisions regarding limitations which often
+                          occur as a result of the absence of clear guidelines in the corpus creation phase. Specific
+                          recommendations are made to address issues in the spoken corpus domain such as varied microphone
+                          setups, irreversible acoustic post-processing of recordings, and inconsistent use of audio
+                          filetypes. For example, low-bitrate MP3, whilst near universally accepted as a very effective form
+                          of signal compression, is designed to remove as much information from an audio signal as possible
+                          whilst trying to preserve the human perception of the signal from a psychoacoustic perspective
+                          (Watkinson, 2012: 169-227). Therefore, whilst to the human ear the signal may appear unaltered, the
+                          information loss caused by signal compression can pose challenges from the perspective of speech
+                          scientists such as speech analytics for emotion recognition (Campbell, 2002; Lotz, 2017).</br>In the
+                          written domain we provide a worked example from the currently ongoing compilation of the
+                          Lancaster-Northern Arizona Corpus of American English (LANA). Even straightforward tasks such as
+                          removing the front and backmatter pose significant problems when working with epub files that do not
+                          follow a rigorous standard. This is the case since long acknowledgements or reading samples run the
+                          risk of mimicking the style of the desired main body of the text and chapter breaks are not reliably
+                          marked. The issue of formatting inconsistencies almost always occurs when eBooks are sourced from
+                          multiple publishers. As for the fiction section of LANA only 664 out of 1325 books available (50.1%)
+                          contained explicit and reliable chapter breaks. This paper describes the subroutine of the PCPi
+                          framework. This splits individual files into paragraphs and checks their contents in several passes
+                          to classify them as belonging to the main body of the text or not using a window-based approach,
+                          resulting in 1133 (85.5%) salvageable eBooks. </br>By advocating for standardized practices and
+                          exemplifying its application in eBook corpus construction, this study contributes to the ongoing
+                          efforts aimed at fostering methodological coherence within the diverse landscape of corpus
+                          linguistics through the oculus of the PCPi framework. </br>  </br>  </p>
+                      </div>
+                    </br>
+
+                    <button class="collapsible">Graphing Registers - Exploring Register Differences via
+                      Collocational Networks in the BNC2014 </button>
+                    <div class="content">
+                      <p>Abstract (II): </br>One of the many
+                      ways in which register differences and linguistic nuances within different fields of discourse can
+                      be explored and compared is via collocations, here broadly defined as a commonly co-occurring group
+                      or set of words (Barnbrook et al., 2013; Stulpinaitė et al., 2016). Previous research shows that
+                      register can be used to partially predict collocations in American English (Berber Sardinha, 2017),
+                      and underscores the significance of investigating how linguistic patterns contribute to the
+                      distinctive characteristics of various registers. This paper aims to explore register differences in
+                      the BNC2014 (v2; Love et al, 2017; Brezina et al., 2021) through the lens of collocational clusters
+                      derived from subcorpus-wide collocation networks Acknowledging the often-conflicting definitions of
+                      register and genre, this study adopts Biber and Conrad's (2019) interchangeable use of these terms,
+                      employing subcorpora of the BNC2014 as proxies for registers. The questions raised in this paper are
+                      how well collocation networks can capture register variation, which registers in the BNC2014 are the
+                      most collocationally similar/dissimilar, and what unique collocational clusters emerge from each
+                      subcorpus. In order to address these, a multidisciplinary approach spanning corpus linguistics and
+                      graph theory is used to generate networks of all collocations within each of the 8 subcorpora of the
+                      BNC: Academic Language, E-Language, Fiction, Magazines, Newspapers, Written-To-Be-Spoken, Official
+                      Documents, and Spoken Language. Following a methodology akin to Karaminis et al. (2023), the
+                      collocations are required to lie above both a ΔPforward and logDice threshold to ensure robustness
+                      in terms of the forwards predictability and coherence of the collocations. The large linguistic
+                      networks (LLNs) generated on the basis of these subcorpora represent the collocational profiles,
+                      structure, and aboutness (Pecina, 2010; Xiao & McEnery, 2006; Brezina, 2016; Baker, 2016; Brezina et
+                      al., 2015) of the respective registers in the BNC2014. MCODE clustering (Bader & Hogue, 2003) is
+                      employed in order to identify the collocationally most closely-interconnected clusters unique to
+                      each register.
+                            
+                        <span class="image left"> <img src="images/fulls/ICAME45_Fig1.png"
+                          alt="ICAME presentations 2024"/></span>
+                          Employing this methodology serves two purposes: Firstly, it allows for a systematic
+                        and fully interpretable exploration of large-scale differences in collocational tendencies among
+                        different registers of modern British English, and, secondly, it showcases which new avenues for
+                        interpretation a novel approach to collocation visualisation can bring. On a broader scale, notable
+                        collocational convergence is observed, with the highest overlap occurring between Magazines and News
+                        (20.2%), Spoken and Written-to-be-Spoken (19.9%), and E-Language and Spoken (19.6%). Conversely, the
+                        lowest overlap is evident between Official Documents and Written-to-be-Spoken (2.0%), Academic
+                        Language and Written-to-be-Spoken (2.3%), and Fiction and Official Documents (3.2%). 
+                        <span class="image right"> <img
+                          src="images/fulls/ICAME45_Fig2.png" alt="ICAME presentations 2024" /></span> Figures 1 and 2
+                        show key clusters from the opposing domains of Official Documents and Written-To-Be-Spoken
+                        respectively. This novel multidisciplinary approach integrating corpus linguistics and graph theory
+                        with MCODE clustering presents a new way for systematically exploring register variation. </br>
+                        <span style="font-size:0.7em">Figure 1: Subcluster containing collocates unique to Official Documents in the BNC2014. </br> Figure 2: Subcluster containing collocates unique to Written-To-Be-Spoken in the BNC2014. </br></span></p>
+    
+                    </div>
+                  </br>
+
+                  </section>
             <section id="six">
                 <h2>Invited talks/ guest lectures </h2>
                 <ul>
@@ -777,6 +930,22 @@
             </ul>
         </div>
     </footer> <!-- Scripts -->
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+      </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.poptrox.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
