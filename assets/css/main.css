@@ -25,6 +25,51 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+	.rounded-box {
+		background-color: #e2dde494; 
+		border-radius: 5px; 
+		padding: 2px 2px 2px 2px;
+		font-family: inherit;
+	}
+	.collapsible {
+		background-color: #e2dde4;
+		color: inherit;
+		cursor: pointer;
+		padding: 10px;
+		width: 100%;
+		border: none;
+		text-align: center;
+		outline: none;
+		font-size: 15px;
+		font-family: inherit;
+		border-radius: 5px;
+	  }
+	  
+	  .active, .collapsible:hover {
+		background-color: #786f62;
+		color: #f1f1f1;
+	  }
+	  
+	  .content {
+		padding: 0 18px;
+		max-height: 0;
+		overflow: auto;
+		transition: max-height 0.2s ease-out;
+		background-color: #f1f1f1;
+		font-family: inherit;
+		border-radius: 5px;
+	  }
+	
+	  .center-container {
+			text-align: center;
+	  }
+
+	.apa {
+		text-indent: -36px;
+		padding-left: 36px;
+		}
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -198,6 +243,10 @@ input, select, textarea {
 			margin: 3em 0;
 		}
 
+    	hr.rounded {
+			border: 3px solid #b8b8b8;
+			border-radius: 7px 7px 7px 7px;
+		}
 	blockquote {
 		border-left: solid 6px #efefef;
 		font-style: italic;
