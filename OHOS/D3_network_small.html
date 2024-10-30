@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Force Graph</title>
+  <style> body { margin: 0; } </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="//unpkg.com/3d-force-graph"></script>
+</head>
+<body>
+  <div id="3d-graph"></div>
+  <script>
+
+    const loader = new THREE.FontLoader();
+    loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+        .jsonUrl('../datasets/OHOS/D3_output_PERSON_ORG_EVENT_anon.jsonl')
+        .nodeAutoColorBy('type')
+        
+        .cooldownTicks(200)
+        .nodeThreeObject(node => {
+          const group = new THREE.Group();
+
+          const sphereGeometry = new THREE.SphereGeometry(5);
+          const sphereMaterial = new THREE.MeshBasicMaterial({ color: node.color });
+          const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+          group.add(sphere);
+
+          if (node.frequency>10) { // Render labels only for the first 10 nodes
+            const textGeometry = new THREE.TextGeometry(node.id, {
+              font: font,
+              size: 5,
+              height: 1
+            });
+            const textMaterial = new THREE.MeshBasicMaterial({ color: 'lightgrey' });
+            const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+            textMesh.position.set(10, 10, 0); // Adjust as needed
+            group.add(textMesh);
+          }
+
+          return group;
+        });
+    });
+
+
+  </script>
+</body>
+</html>
