@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Force Graph</title>
+  <style> body { margin: 0; } </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="//unpkg.com/3d-force-graph"></script>
+</head>
+<body>
+  <div id="3d-graph"></div>
+  <script>
+
+      const loader = new THREE.FontLoader();
+    loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+        .jsonUrl('../datasets/OHOS/D1_output_ORG_EVENT_WORK_OF_ART_PERSON_PRODUCT_anon.json')
+        .cooldownTicks(200)
+        .linkWidth(.5)
+        .linkOpacity(.1)
+        .onNodeClick(node => {
+          removeNodesWithNanWikilinkInterval();
+        })
+        .nodeThreeObject(node => {
+          const group = new THREE.Group();
+          const sphereGeometry = new THREE.SphereGeometry(Math.log(node.frequency + 1) * 5);
+          const sphereMaterial = new THREE.MeshBasicMaterial({ color: node.wikicolour === 'blue' ? 0x4a4ca2  : node.wikicolour === 'red' ? 0xc0392b  : 0xffffff });
+          const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+          group.add(sphere);
+
+          if (node.frequency > 10) { // Render labels only for the first 10 nodes
+            const textGeometry = new THREE.TextGeometry(node.id, {
+              font: font,
+              size: 5,
+              height: 1
+            });
+            const textMaterial = new THREE.MeshBasicMaterial({ color: 'lightgrey' });
+            const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+            textMesh.position.set(10, 10, 0); // Adjust as needed
+            group.add(textMesh);
+          }
+
+          return group;
+        });
+
+      let intervalId;
+      let initialNodeCount;
+      let speed = 100;
+
+      function removeNodesWithNanWikilinkInterval() {
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
+
+  let nodes = Graph.graphData().nodes;
+  let links = Graph.graphData().links;
+  initialNodeCount = nodes.length;
+
+  intervalId = setInterval(() => {
+    nodes = Graph.graphData().nodes;
+    links = Graph.graphData().links;
+    const nanNodes = nodes.filter(n => n.wikilink === 'nan').sort((a, b) => b.frequency - a.frequency);
+    if (nanNodes.length > 0) {
+      const nodesToRemove = nanNodes.slice(0, 5); // Remove up to 3 nodes at a time
+      nodes = nodes.filter(n => !nodesToRemove.includes(n));
+      links = links.filter(l => !nodesToRemove.includes(l.source) && !nodesToRemove.includes(l.target));
+      nodes.forEach((n, idx) => { n.id = idx; });
+      Graph.graphData({ nodes, links });
+
+      const removedPercentage = (1 - (nodes.length / initialNodeCount)) * 100;
+      speed = Math.max(0.1, 10 - (removedPercentage * 0.5));
+    } else {
+      clearInterval(intervalId);
+    }
+  }, speed);
+}
+    });
+  </script>
+</body>
+</html>
