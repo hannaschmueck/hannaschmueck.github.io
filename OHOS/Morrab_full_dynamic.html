@@ -47,23 +47,22 @@
     <img id="morrab-logo" src="../datasets/OHOS/logo/morrab.png" width="70" height="70">
   </a>
 <div id="overlay">This network shows the links between all events, organisations, people, works of art, 
-  and products that are connected via shared mentions and relations to items in the Morrab Archive. 
-  Right clicking on an entry opens the associated wikidata link if available.</div>
+  and products that occur at least twice and are connected via shared mentions and relations to items in the Morrab Archive. 
+  Clicking on an entry shows what would happen if we didn't have community generated content. This removes only the nodes that currently don't appear on wikidata.</div>
   <script>
 
     const loader = new THREE.FontLoader();
     loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/OHOS/MORRAB_ORG_EVENT_WORK_OF_ART_PERSON_PRODUCT.json')
+        .jsonUrl('../datasets/OHOS/MORRAB_PERSON_PRODUCT_WORK_OF_ART_EVENT_ORG_subsample.json')
         .showNavInfo(0)
         .cooldownTicks(400)
         .linkWidth(.5)
         .linkOpacity(.1)
-        .onNodeRightClick((node, event) => {
-           if (node.wikilink !== 'nan') {
-             window.open(node.wikilink, '_blank');
-           }})
+        .onNodeClick(node => {
+          removeNodesWithNanWikilinkInterval();
+        })
         .nodeThreeObject(node => {
           const group = new THREE.Group();
           const sphereGeometry = new THREE.SphereGeometry(5);
@@ -94,8 +93,38 @@
           return group;
         });
 
-    });
+let intervalId;
+let initialNodeCount;
+let speed = 100;
 
-  </script>
+function removeNodesWithNanWikilinkInterval() {
+if (intervalId) {
+clearInterval(intervalId);
+}
+
+let nodes = Graph.graphData().nodes;
+let links = Graph.graphData().links;
+initialNodeCount = nodes.length;
+
+intervalId = setInterval(() => {
+nodes = Graph.graphData().nodes;
+links = Graph.graphData().links;
+const nanNodes = nodes.filter(n => n.wikilink === 'nan').sort((a, b) => b.frequency - a.frequency);
+if (nanNodes.length > 0) {
+const nodesToRemove = nanNodes.slice(0, 5); // Remove up to 3 nodes at a time
+nodes = nodes.filter(n => !nodesToRemove.includes(n));
+links = links.filter(l => !nodesToRemove.includes(l.source) && !nodesToRemove.includes(l.target));
+nodes.forEach((n, idx) => { n.id = idx; });
+Graph.graphData({ nodes, links });
+
+const removedPercentage = (1 - (nodes.length / initialNodeCount)) * 100;
+speed = Math.max(0.1, 10 - (removedPercentage * 0.5));
+} else {
+clearInterval(intervalId);
+}
+}, speed);
+}
+});
+</script>
 </body>
 </html>
