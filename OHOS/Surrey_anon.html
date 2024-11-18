@@ -3,19 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Archive 1 Network</title>
+  <title>Surrey in the Great War Archive - dynamic</title>
   <style> body { margin: 0; } 
 #ohos-logo {
   position: absolute;
   top: 0;
-  left: 0;
-  opacity: 0.5;
-  z-index: 1;
-}
-
-#morrab-logo {
-  position: absolute;
-  top: 75px;
   left: 0;
   opacity: 0.5;
   z-index: 1;
@@ -43,25 +35,18 @@
   <a href="https://ohos.ac.uk" target="_blank" style="pointer-events: auto;">
   <img id="ohos-logo" src="../datasets/OHOS/logo/OHOS.png" width="70" height="70">
 </a>
-<a href="https://morrablibrary.org.uk/" target="_blank" style="pointer-events: auto;">
-    <img id="morrab-logo" src="../datasets/OHOS/logo/morrab.png" width="70" height="70">
-  </a>
-<div id="overlay">Contains partially randomised and fully anonymised data showing events, organisations, people, works of art, geopolitical entities, and products from Dataset 1. </div>
+<div id="overlay">Contains partially randomised and fully anonymised data showing events, organisations, people, works of art, geopolitical entities, and products from the Surrey in the Great War Archive. </div>
   <script>
 
     const loader = new THREE.FontLoader();
     loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-        .jsonUrl('..datasets/OHOS/SURREY_LOC_WORK_OF_ART_PERSON_GPE_PRODUCT_EVENT_ORG_anon.json')
+        .jsonUrl('../datasets/OHOS/SURREY_LOC_WORK_OF_ART_PERSON_GPE_PRODUCT_EVENT_ORG_anon.json')
         .showNavInfo(0)
         .cooldownTicks(400)
         .linkWidth(.5)
         .linkOpacity(.1)
-        .onNodeRightClick((node, event) => {
-           if (node.wikilink !== 'nan') {
-             window.open(node.wikilink, '_blank');
-           }})
         .nodeThreeObject(node => {
           const group = new THREE.Group();
           const sphereGeometry = new THREE.SphereGeometry(5);
@@ -77,8 +62,8 @@
           const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
           group.add(sphere);
 
-          if (node.frequency>3) {
-            const textGeometry = new THREE.TextGeometry(node.name, {
+          if (node.frequency>5) {
+            const textGeometry = new THREE.TextGeometry(node.id, {
               font: font,
               size: 5,
               height: 1
