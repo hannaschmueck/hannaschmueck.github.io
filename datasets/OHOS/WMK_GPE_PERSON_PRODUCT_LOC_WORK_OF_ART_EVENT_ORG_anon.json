@@ -1,0 +1,1085 @@
+{"directed": false,"multigraph": false, "graph": {},"nodes": [{
+          "id": "WMK_PERSON_0",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_1",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_PERSON_2",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_3",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_4",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_5",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_6",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_7",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_8",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PERSON_9",
+          "type": "PERSON",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_PRODUCT_0",
+          "type": "PRODUCT",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_LOC_0",
+          "type": "LOC",
+          "wikilink": "wikilink1",
+          "frequency": 9,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_LOC_1",
+          "type": "LOC",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_LOC_2",
+          "type": "LOC",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_LOC_3",
+          "type": "LOC",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_LOC_4",
+          "type": "LOC",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_WORK_OF_ART_0",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_WORK_OF_ART_1",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_WORK_OF_ART_2",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_WORK_OF_ART_3",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_WORK_OF_ART_4",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_WORK_OF_ART_5",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_WORK_OF_ART_6",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_WORK_OF_ART_7",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_WORK_OF_ART_8",
+          "type": "WORK_OF_ART",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_EVENT_0",
+          "type": "EVENT",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_EVENT_1",
+          "type": "EVENT",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_0",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_1",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_2",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_3",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_4",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_5",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_6",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_7",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_8",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_9",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_10",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_11",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_12",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_13",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_14",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_15",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_16",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_17",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_18",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_13",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_19",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_20",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_21",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_22",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_23",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "red"
+        },{
+          "id": "WMK_ORG_24",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_25",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_26",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        },{
+          "id": "WMK_ORG_27",
+          "type": "ORG",
+          "wikilink": "wikilink1",
+          "frequency": 1,
+          "wikicolour": "blue"
+        }], "links": [{
+            "source": "WMK_ORG_10",
+            "target": "WMK_PERSON_4",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_10",
+            "target": "WMK_ORG_11",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_10",
+            "target": "WMK_WORK_OF_ART_3",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_10",
+            "target": "WMK_ORG_12",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_10",
+            "target": "WMK_ORG_13",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_10",
+            "target": "WMK_LOC_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_10",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_4",
+            "target": "WMK_ORG_11",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_4",
+            "target": "WMK_WORK_OF_ART_3",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_4",
+            "target": "WMK_ORG_12",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_4",
+            "target": "WMK_ORG_13",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_4",
+            "target": "WMK_LOC_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_4",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_11",
+            "target": "WMK_WORK_OF_ART_3",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_11",
+            "target": "WMK_ORG_12",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_11",
+            "target": "WMK_ORG_13",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_11",
+            "target": "WMK_LOC_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_11",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_3",
+            "target": "WMK_ORG_12",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_3",
+            "target": "WMK_ORG_13",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_3",
+            "target": "WMK_LOC_2",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_3",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_12",
+            "target": "WMK_ORG_13",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_12",
+            "target": "WMK_LOC_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_12",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_LOC_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_LOC_0",
+            "frequency": 2
+        },{
+            "source": "WMK_LOC_2",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_0",
+            "target": "WMK_ORG_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_0",
+            "target": "WMK_EVENT_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_0",
+            "target": "WMK_ORG_1",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_0",
+            "target": "WMK_ORG_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_0",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_0",
+            "target": "WMK_EVENT_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_0",
+            "target": "WMK_ORG_1",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_0",
+            "target": "WMK_ORG_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_0",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_0",
+            "target": "WMK_ORG_1",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_0",
+            "target": "WMK_ORG_2",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_0",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_1",
+            "target": "WMK_ORG_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_1",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_2",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_EVENT_1",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_WORK_OF_ART_7",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_26",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_PERSON_9",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_LOC_3",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_LOC_4",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_1",
+            "target": "WMK_WORK_OF_ART_7",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_1",
+            "target": "WMK_ORG_26",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_1",
+            "target": "WMK_PERSON_9",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_1",
+            "target": "WMK_LOC_3",
+            "frequency": 1
+        },{
+            "source": "WMK_EVENT_1",
+            "target": "WMK_LOC_4",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_7",
+            "target": "WMK_ORG_26",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_7",
+            "target": "WMK_PERSON_9",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_7",
+            "target": "WMK_LOC_3",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_7",
+            "target": "WMK_LOC_4",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_26",
+            "target": "WMK_PERSON_9",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_26",
+            "target": "WMK_LOC_3",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_26",
+            "target": "WMK_LOC_4",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_9",
+            "target": "WMK_LOC_3",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_9",
+            "target": "WMK_LOC_4",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_3",
+            "target": "WMK_LOC_4",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_9",
+            "target": "WMK_PERSON_3",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_9",
+            "target": "WMK_LOC_1",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_3",
+            "target": "WMK_LOC_1",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_ORG_18",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_PERSON_6",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_WORK_OF_ART_5",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_ORG_17",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_13",
+            "target": "WMK_ORG_16",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_18",
+            "target": "WMK_PERSON_6",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_18",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_18",
+            "target": "WMK_WORK_OF_ART_5",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_18",
+            "target": "WMK_ORG_17",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_18",
+            "target": "WMK_ORG_16",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_18",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_6",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_6",
+            "target": "WMK_WORK_OF_ART_5",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_6",
+            "target": "WMK_ORG_17",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_6",
+            "target": "WMK_ORG_16",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_6",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_WORK_OF_ART_5",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_ORG_17",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_ORG_16",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_LOC_0",
+            "frequency": 2
+        },{
+            "source": "WMK_WORK_OF_ART_5",
+            "target": "WMK_ORG_17",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_5",
+            "target": "WMK_ORG_16",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_5",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_17",
+            "target": "WMK_ORG_16",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_17",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_16",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PRODUCT_0",
+            "target": "WMK_PERSON_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PRODUCT_0",
+            "target": "WMK_ORG_7",
+            "frequency": 1
+        },{
+            "source": "WMK_PRODUCT_0",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PRODUCT_0",
+            "target": "WMK_ORG_8",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_2",
+            "target": "WMK_ORG_7",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_2",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_2",
+            "target": "WMK_ORG_8",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_7",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_7",
+            "target": "WMK_ORG_8",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_ORG_8",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_7",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_19",
+            "target": "WMK_ORG_20",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_19",
+            "target": "WMK_WORK_OF_ART_6",
+            "frequency": 2
+        },{
+            "source": "WMK_ORG_19",
+            "target": "WMK_LOC_0",
+            "frequency": 2
+        },{
+            "source": "WMK_ORG_20",
+            "target": "WMK_WORK_OF_ART_6",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_20",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_6",
+            "target": "WMK_LOC_0",
+            "frequency": 2
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_PERSON_5",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_WORK_OF_ART_4",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_ORG_15",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_5",
+            "target": "WMK_WORK_OF_ART_4",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_5",
+            "target": "WMK_ORG_15",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_4",
+            "target": "WMK_ORG_15",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_ORG_21",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_PERSON_8",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_ORG_23",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_ORG_22",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_14",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_PERSON_8",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_ORG_23",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_ORG_22",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_21",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_8",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_8",
+            "target": "WMK_ORG_23",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_8",
+            "target": "WMK_ORG_22",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_8",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_8",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_8",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_23",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_22",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_23",
+            "target": "WMK_ORG_22",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_23",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_23",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_23",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_22",
+            "target": "WMK_WORK_OF_ART_2",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_22",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_22",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_ORG_25",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_2",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_25",
+            "target": "WMK_ORG_24",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_WORK_OF_ART_1",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_PERSON_1",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_ORG_6",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_ORG_5",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_WORK_OF_ART_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_3",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_1",
+            "target": "WMK_LOC_0",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_1",
+            "target": "WMK_PERSON_1",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_1",
+            "target": "WMK_ORG_6",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_1",
+            "target": "WMK_ORG_5",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_1",
+            "target": "WMK_WORK_OF_ART_0",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_1",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_PERSON_1",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_6",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_5",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_WORK_OF_ART_0",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_1",
+            "target": "WMK_ORG_6",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_1",
+            "target": "WMK_ORG_5",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_1",
+            "target": "WMK_WORK_OF_ART_0",
+            "frequency": 1
+        },{
+            "source": "WMK_PERSON_1",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_6",
+            "target": "WMK_ORG_5",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_6",
+            "target": "WMK_WORK_OF_ART_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_6",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_5",
+            "target": "WMK_WORK_OF_ART_0",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_5",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_0",
+            "target": "WMK_ORG_4",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_6",
+            "target": "WMK_WORK_OF_ART_8",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_6",
+            "target": "WMK_ORG_27",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_19",
+            "target": "WMK_WORK_OF_ART_8",
+            "frequency": 1
+        },{
+            "source": "WMK_ORG_19",
+            "target": "WMK_ORG_27",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_WORK_OF_ART_8",
+            "frequency": 1
+        },{
+            "source": "WMK_LOC_0",
+            "target": "WMK_ORG_27",
+            "frequency": 1
+        },{
+            "source": "WMK_WORK_OF_ART_8",
+            "target": "WMK_ORG_27",
+            "frequency": 1
+        }]}
