@@ -20,7 +20,7 @@
 
       <header id="header">
         <div class="inner">
-          <h1>Countdown</h1>
+          <h1><3</h1>
 
           </h1>
         </div>
@@ -32,15 +32,16 @@
            <div class="m-4">
 
 
-    <div class="progress">
-        <div class="progress-bar progress-bar-striped" style="min-width: 20px;"></div>
-    </div>
-
+</div>
+<h2>Countdown</h2>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped" style="min-width: 20px; background-color: #333; color: #fff; font-size: 0.8em;"></div>
 </div>
 
 <p id="demo"></p>
 
 <br>
+
 
 <script>
 // Set the date we're counting down to
@@ -59,7 +60,7 @@ var now = new Date().getTime();
   var distance1 = Math.floor(distance / (1000))
   var percentage = (1 - (distance1/969300))*100
   var pvalue = percentage.toFixed(0)-1
-  var percentage = percentage.toFixed(4)
+  var percentage = percentage.toFixed(2)
   
 var i = pvalue;
       	var bar = document.querySelector(".progress-bar");
