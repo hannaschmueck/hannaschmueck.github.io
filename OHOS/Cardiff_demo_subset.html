@@ -52,12 +52,12 @@
     loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-         .jsonUrl('../datasets/OHOS/Cardiff_demo_subset.html')
+         .jsonUrl('../datasets/OHOS/Cardiff_demo_output_PERSON_EVENT_ORG_subsample.json')
         
         .showNavInfo(0)
         .cooldownTicks(400)
-        .linkWidth(.5)
-        .linkOpacity(.1)
+        .linkWidth(1)
+        .linkOpacity(.2)
         .onNodeRightClick((node, event) => {
            if (node.wikilink !== 'nan') {
              window.open(node.wikilink, '_blank');
