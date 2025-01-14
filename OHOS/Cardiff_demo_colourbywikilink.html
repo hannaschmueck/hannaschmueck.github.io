@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PCW_colourbytype</title>
+  <style> body { margin: 0; } 
+#ohos-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#overlay {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+  font-size: 12px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+  </style>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="//unpkg.com/3d-force-graph"></script>
+</head>
+<body>
+  
+  <div id="3d-graph"></div>
+  <a href="https://ohos.com" target="_blank" style="pointer-events: auto;">
+  <img id="ohos-logo" src="../logo/OHOS.png" width="70" height="70" style="position: absolute; top: 0; left: 0; opacity: 0.5;">
+</a>
+  <div id="overlay">PCW demo - subset - colours by wikilink </div>
+  <script>
+
+    const loader = new THREE.FontLoader();
+    loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+        .jsonUrl('../datasets/OHOS/PCW_demo_output_PRODUCT_GPE_ORG_LOC_WORK_OF_ART_EVENT_PERSON.json')
+        .showNavInfo(0)
+        .cooldownTicks(400)
+        .linkWidth(.5)
+        .linkOpacity(.1)
+        .onNodeRightClick((node, event) => {
+          if (node.wikilink !== 'nan') {
+            window.open(node.wikilink, '_blank');
+          }
+        })
+        .nodeThreeObject(node => {
+          const group = new THREE.Group();
+          const sphereGeometry = new THREE.SphereGeometry(5);
+          const sphereMaterial = new THREE.MeshBasicMaterial({ color: 
+            node.wikicolour === 'blue' ? 0x494D88  :
+            node.wikicolour === 'red' ? 0x8B0000  :
+            0xffffff });
+          const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+          group.add(sphere);
+
+          if (node.frequency>10) {
+            const textGeometry = new THREE.TextGeometry(node.name, {
+              font: font,
+              size: 5,
+              height: 1
+            });
+            const textMaterial = new THREE.MeshBasicMaterial({ color: 'lightgrey' });
+            const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+            textMesh.position.set(10, 10, 0); // Adjust as needed
+            group.add(textMesh);
+
+            
+          }
+
+          return group;
+        });
+
+    });
+
+  </script>
+</body>
+</html>
