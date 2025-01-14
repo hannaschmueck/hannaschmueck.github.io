@@ -1,0 +1,5288 @@
+{"directed": false,"multigraph": false, "graph": {},"nodes": [{
+          "id": "Cardiff_demo_PERSON_7",
+          "name": "OSWALD NORMANBY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_9",
+          "name": "JOHN ACTON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_12",
+          "name": "GEORGE BERESFORD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_25",
+          "name": "GARY COOPER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_40",
+          "name": "DAVID PARISH",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5238375",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_42",
+          "name": "FRED NEILSON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_46",
+          "name": "PEGGY WAGNER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 6,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_48",
+          "name": "BABA RYLE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_51",
+          "name": "PRINCE ALI",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 61,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_62",
+          "name": "CHLOE BUXTON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_64",
+          "name": "HAVELOCK BEACON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_65",
+          "name": "CHRISTIAN DAVIDSON",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5109485",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_73",
+          "name": "CRISTOPHER FORD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_74",
+          "name": "DOUGLAS BYNG",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_80",
+          "name": "BETTY GRENFELL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_81",
+          "name": "CHRISTOPHER FORD",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5111869",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_85",
+          "name": "DAVID HODGES",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q362886",
+          "frequency": 13,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_87",
+          "name": "HAMISH FORBES",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5645350",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_89",
+          "name": "FRANCIS COCHRANE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5480557",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_98",
+          "name": "GEORGY HAY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_105",
+          "name": "GABRIEL HERBERT",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_106",
+          "name": "BOB MATHEW",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 7,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_107",
+          "name": "JOHN GEDDES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 16,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_109",
+          "name": "MARJORIE DUNCAN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_116",
+          "name": "BILL ARMISTEAD",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q16106537",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_117",
+          "name": "PEGGY GEDDES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_120",
+          "name": "THE DUKE OF NORTHUMBERLAND",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_122",
+          "name": "JOHN G",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 17,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_126",
+          "name": "PAM WICKHAM",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_128",
+          "name": "JOHN BANKS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_131",
+          "name": "AVA BAIRD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_136",
+          "name": "PAUL ROBESON",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q273233",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_140",
+          "name": "PASCOE GRENFELL",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q7141838",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_144",
+          "name": "JOHN CHICHESTER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 6,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_145",
+          "name": "MAGNUS GEDDES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_156",
+          "name": "BERNARD VAN C",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_162",
+          "name": "BILL HEINEMAN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_165",
+          "name": "JOHN LOWTHER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_173",
+          "name": "ERIC DUNCANNON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_174",
+          "name": "NOEL COWARD",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q298388",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_176",
+          "name": "JULIUS MONK",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q6309971",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_177",
+          "name": "MABS WILSON WRIGHT",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_179",
+          "name": "CHARLES BOYER",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q105987",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_181",
+          "name": "NADINE SHREWSBURY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_176",
+          "name": "JULIUS MONK",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_188",
+          "name": "MICHAEL WOOD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_191",
+          "name": "DAVID H",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_196",
+          "name": "IAN HOWLAND",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 7,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_199",
+          "name": "JUAN PARDO",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_203",
+          "name": "HENRIETTA WADDINGTON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_207",
+          "name": "QUEEN MARY",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q76927",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_213",
+          "name": "ANN HAMILTON GRACE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_228",
+          "name": "ST DAVIDS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_235",
+          "name": "NEVILLE BERRY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_237",
+          "name": "LOU VON HESSEN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_240",
+          "name": "JANE MURDOCH",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_246",
+          "name": "ARIEL BAIRD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 9,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_162",
+          "name": "BILL HEINEMAN",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q7301768",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_249",
+          "name": "ANGELA ELY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_251",
+          "name": "GERALD CUTHBERT",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5549041",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_261",
+          "name": "DORIC HAIG",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_262",
+          "name": "MORGAN PRESTON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_267",
+          "name": "SAMMY HOOD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_268",
+          "name": "DAVID LONG",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_270",
+          "name": "STEWART PRESTON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_272",
+          "name": "GEORGY LEWIS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_85",
+          "name": "DAVID HODGES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 13,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_281",
+          "name": "LAURA BONHAM CARTER",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q27929653",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_292",
+          "name": "PRINCESS BEA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_295",
+          "name": "PRINCESS B",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 7,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_311",
+          "name": "PETER LINDSAY",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q7175469",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_321",
+          "name": "PRINCESS BEE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q18092418",
+          "frequency": 133,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_322",
+          "name": "MARIA ANGEL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_324",
+          "name": "P BEE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 42,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_325",
+          "name": "THE DUCHESS OF MONTEMAR",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q40519",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_321",
+          "name": "PRINCESS BEE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 133,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_328",
+          "name": "THE DUCHESS OF M",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_330",
+          "name": "CARMEN ABRANTES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 6,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_332",
+          "name": "CARMEN ABNANTES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_330",
+          "name": "CARMEN ABRANTES",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q169260",
+          "frequency": 6,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_335",
+          "name": "ISABELA BOGANO",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_346",
+          "name": "GONZALO SEGOVIA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_348",
+          "name": "PEPITA LEON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_351",
+          "name": "HENRY BOBADILLA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_355",
+          "name": "INFANTA EULALIA",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q240311",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_358",
+          "name": "HENRY CHILTERN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_359",
+          "name": "SANTA MARIA",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q643953",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_360",
+          "name": "THE SANTA MARIAS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_359",
+          "name": "SANTA MARIA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_361",
+          "name": "PETER KEMP",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 11,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_363",
+          "name": "MARY ANGEL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_51",
+          "name": "PRINCE ALI",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q524703",
+          "frequency": 61,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_369",
+          "name": "MARY ANGELO",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 12,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_373",
+          "name": "LA MONTEMAR",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q40519",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_373",
+          "name": "LA MONTEMAR",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_379",
+          "name": "CARMEN SOTO",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_381",
+          "name": "MANUELO DOMECQUE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_383",
+          "name": "MANUELO PANTERA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_384",
+          "name": "MANOLITO PANTERA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_295",
+          "name": "PRINCESS B",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q15039722",
+          "frequency": 7,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_389",
+          "name": "DON ATAUFLO",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_394",
+          "name": "MERCEDES MILA",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q611566",
+          "frequency": 13,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_416",
+          "name": "MARIA TERESA TREVOR",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_394",
+          "name": "MERCEDES MILA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 13,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_419",
+          "name": "MARIA SALA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_422",
+          "name": "PEPE LOUIS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_423",
+          "name": "GARCIA VEGAS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_427",
+          "name": "CARMEN ARAMA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_444",
+          "name": "ERIC DUNNCANON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_459",
+          "name": "FRAN VON RABEN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_460",
+          "name": "VON RABEN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 8,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_461",
+          "name": "MARY ANGELS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 15,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_463",
+          "name": "LOLA KINDERLAN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_464",
+          "name": "PEPS MERITO",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_481",
+          "name": "MARIE CARMEN",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q592926",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_486",
+          "name": "{PRINCESS BEE} THE INFANTA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 11,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_495",
+          "name": "SAN SEBASTIAN",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q10313",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_481",
+          "name": "MARIE CARMEN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_500",
+          "name": "PRINCESS BEE}",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q18092418",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_501",
+          "name": "{PRINCESS BEE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 15,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_502",
+          "name": "THE INFANTA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 10,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_503",
+          "name": "{PRINCESS BEE}",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 22,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_502",
+          "name": "THE INFANTA",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q213594",
+          "frequency": 10,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_501",
+          "name": "{PRINCESS BEE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q18092418",
+          "frequency": 15,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_505",
+          "name": "SANTA MARIAS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_510",
+          "name": "MERCEDES ELOSIGI",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_512",
+          "name": "P ALI",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 25,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_515",
+          "name": "DE SAIZ",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_519",
+          "name": "DON LUIS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_522",
+          "name": "PILAR SAIZ",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_526",
+          "name": "PRINCES BEE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_533",
+          "name": "PEPE AVIAL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_500",
+          "name": "PRINCESS BEE}",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_540",
+          "name": "MERCEDES MILÁ",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q611566",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_51",
+          "name": "PRINCE ALI",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q39619",
+          "frequency": 61,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_503",
+          "name": "{PRINCESS BEE}",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q18092418",
+          "frequency": 22,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_562",
+          "name": "DON BENITO",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q636120",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_486",
+          "name": "{PRINCESS BEE} THE INFANTA",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q41692",
+          "frequency": 11,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_503",
+          "name": "{PRINCESS BEE}",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q315796",
+          "frequency": 22,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_587",
+          "name": "PEPITO LARIOS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_588",
+          "name": "ROSARIO BARCENAS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_590",
+          "name": "VICKY VEGAS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_592",
+          "name": "{P BEE} THE INFANTA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_603",
+          "name": "BLANCO SOLER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_606",
+          "name": "THE QUEEN OF SPAIN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_607",
+          "name": "{PBEE} THE INFANTA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_608",
+          "name": "{P BEE}",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_610",
+          "name": "{P BEE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_618",
+          "name": "MARY ANGELA",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_627",
+          "name": "ULTANO KUDERLAU",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_640",
+          "name": "SERANO SUNER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_658",
+          "name": "FRED ASTAIRE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q100937",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_659",
+          "name": "GINGER ROGERS",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q95089",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_81",
+          "name": "CHRISTOPHER FORD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_670",
+          "name": "GEORGE TOWNSHEND",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q3101971",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_199",
+          "name": "JUAN PARDO",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q1639778",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_720",
+          "name": "PHILIP ASTLEY",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q2003149",
+          "frequency": 5,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_728",
+          "name": "DAVID STEAD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 8,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_729",
+          "name": "EVIE PINCHING",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_736",
+          "name": "MUCKY GILLESPIE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_741",
+          "name": "EDITH CAVELL",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q237564",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_743",
+          "name": "IAN BEATTY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_746",
+          "name": "JAMES CASSEL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_670",
+          "name": "GEORGE TOWNSHEND",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_749",
+          "name": "NORAH LINDSAY",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q7050218",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_174",
+          "name": "NOEL COWARD",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_755",
+          "name": "BEDDINGTON BEHRENS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_758",
+          "name": "JAMES CASSELL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_762",
+          "name": "VERONICA BOOKER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_764",
+          "name": "ADELAIDE HALL",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q293087",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_767",
+          "name": "JIM MATHEW",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_770",
+          "name": "MARY ROSE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q544894",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_770",
+          "name": "MARY ROSE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_772",
+          "name": "DENIS ALEXANDER",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5257071",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_758",
+          "name": "JAMES CASSELL",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q17423423",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_777",
+          "name": "ANTHONY LYALL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_795",
+          "name": "NAOMI OPPENHEIM",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_809",
+          "name": "ANNE SEE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_811",
+          "name": "VAN TETS",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_814",
+          "name": "MAUREEN SCHREIBER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 9,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_817",
+          "name": "NANCY WRIGHT",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_818",
+          "name": "JEAN WILLIAMS",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q6171682",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_822",
+          "name": "DODO ANNESLY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_823",
+          "name": "ESHA BELL",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_824",
+          "name": "CYNTHIA TOULMAYNE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_825",
+          "name": "DODO ANNESLEY",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_826",
+          "name": "GLORIA STANHOPE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_827",
+          "name": "JUAN ANTONIO ANSALDO",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q3187551",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_829",
+          "name": "MARIA HOWE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 6,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_833",
+          "name": "LA G",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 8,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_838",
+          "name": "LLOYD MOORE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q6662647",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_844",
+          "name": "MICHAEL SPEARS",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q957382",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_855",
+          "name": "CYNTHIA TOULMIN",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_859",
+          "name": "ROSALEEN FORBES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_860",
+          "name": "ASHTON BENNET",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_861",
+          "name": "ASHTON BENNETT",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q16157287",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_874",
+          "name": "ETIENNE JALENQUES",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q8078469",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_877",
+          "name": "ELIZABETH ARDEN",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q235509",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_883",
+          "name": "EDGAR ALLAN POE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q16867",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_887",
+          "name": "SEYMOUR LESLIE",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5197312",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_888",
+          "name": "HUGH SMYTH",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q5932726",
+          "frequency": 5,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_890",
+          "name": "LT HERSE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_888",
+          "name": "HUGH SMYTH",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_896",
+          "name": "BRIGADIER BRIDGES",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_900",
+          "name": "EDITH WHEELER",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_901",
+          "name": "THE DUCHESS OF KENT",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q170184",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_907",
+          "name": "REX HARRISON",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q181887",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_907",
+          "name": "REX HARRISON",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_917",
+          "name": "STEFAN ZAMOJSKI",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_926",
+          "name": "GILBERT ELLIOT",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_926",
+          "name": "GILBERT ELLIOT",
+          "type": "PERSON",
+          "wikilink": "https://www.wikidata.org/wiki/Q332513",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_PERSON_930",
+          "name": "BRIGADIER BRIDGE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_901",
+          "name": "THE DUCHESS OF KENT",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_936",
+          "name": "PEPE VILLAVERDE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_947",
+          "name": "SANDY LOW",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_913",
+          "name": "COL FORTESCUE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_970",
+          "name": "DE CHAIR",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_961",
+          "name": "LADY A",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_PERSON_887",
+          "name": "SEYMOUR LESLIE",
+          "type": "PERSON",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_EVENT_9",
+          "name": "ASCOT GOLD CUP DAY",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q2742441",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_17",
+          "name": "RAMADAN",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q41662",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_20",
+          "name": "NEW YEARS EVE",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q11269",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_21",
+          "name": "THE NEW YEAR",
+          "type": "EVENT",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_EVENT_26",
+          "name": "THE GREAT WAR",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q361",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_18",
+          "name": "CHRISTMAS",
+          "type": "EVENT",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_EVENT_18",
+          "name": "CHRISTMAS",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q19809",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_19",
+          "name": "CHRISTMAS EVE",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q106010",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_31",
+          "name": "EASTER",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q21196",
+          "frequency": 8,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_31",
+          "name": "EASTER",
+          "type": "EVENT",
+          "wikilink": "nan",
+          "frequency": 8,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_EVENT_38",
+          "name": "XMAS",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q19809",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_42",
+          "name": "NEW YEAR",
+          "type": "EVENT",
+          "wikilink": "https://www.wikidata.org/wiki/Q34812",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_EVENT_38",
+          "name": "XMAS",
+          "type": "EVENT",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_6",
+          "name": "THE LEAGUE OF NATIONS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q38130",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_16",
+          "name": "THE PLAYERS CLUB",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q1107096",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_18",
+          "name": "RITZ",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_37",
+          "name": "& JANE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_39",
+          "name": "BERKELEY",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_41",
+          "name": "WILL & MUGGINS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_61",
+          "name": "CHIRK",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_64",
+          "name": "THE CAFE DE PARIS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q5017277",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_68",
+          "name": "THE ENGLISH CONSULATE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_69",
+          "name": "THE POST OFFICE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_73",
+          "name": "FORD",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q44294",
+          "frequency": 9,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_67",
+          "name": "HOSPITAL",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 21,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_74",
+          "name": "THE ROCK HOTEL",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_93",
+          "name": "REDS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 9,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_94",
+          "name": "VENTOSILLA",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_102",
+          "name": "ATAUFLO",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 6,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_107",
+          "name": "THE GUARDIA CIVIL",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q932821",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_112",
+          "name": "EMBASSY",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q213283",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_113",
+          "name": "THE JEFATURA DE SANIDAD",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_114",
+          "name": "EQUIPO",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 14,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_115",
+          "name": "AUXILIO SOCIAL",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_67",
+          "name": "HOSPITAL",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q16917",
+          "frequency": 21,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_146",
+          "name": "ARMY CORPS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q188497",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_149",
+          "name": "ESCARIOT",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_152",
+          "name": "DIVISION",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q169534",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_155",
+          "name": "INFANTA",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q213594",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_164",
+          "name": "FRENTES Y HOSPITALES",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_175",
+          "name": "BRIGADE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_177",
+          "name": "THE ARMY CORPS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_175",
+          "name": "BRIGADE",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q102356",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_93",
+          "name": "REDS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q1368281",
+          "frequency": 9,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_196",
+          "name": "THE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_207",
+          "name": "RED CROSS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q7178",
+          "frequency": 11,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_209",
+          "name": "THE HOSPITAL CATOLICO",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_213",
+          "name": "THE RED CROSS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 5,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_213",
+          "name": "THE RED CROSS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q7178",
+          "frequency": 5,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_217",
+          "name": "BARAJAS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_224",
+          "name": "THE SPANISH LEGION",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q591925",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_224",
+          "name": "THE SPANISH LEGION",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_227",
+          "name": "RED +",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_244",
+          "name": "POOTS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_256",
+          "name": "LUIGIS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_260",
+          "name": "QUAGLINOS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_16",
+          "name": "THE PLAYERS CLUB",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_262",
+          "name": "CLARIDGES",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q2748565",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_263",
+          "name": "JIM",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_266",
+          "name": "THE CUMBERLAND HOTEL",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_267",
+          "name": "JIMS CLUB",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 7,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_269",
+          "name": "ST THOMAS",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q787",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_61",
+          "name": "CHIRK",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q2316216",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_269",
+          "name": "ST THOMAS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_272",
+          "name": "JIMS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_279",
+          "name": "OFFICE",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q12823105",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_281",
+          "name": "THE WAR OFFICE",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q2060703",
+          "frequency": 6,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_287",
+          "name": "QUEEN",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_14",
+          "name": "THE KNIGHTSBRIDGE GRILL",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_297",
+          "name": "MTC",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 12,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_297",
+          "name": "MTC",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q150",
+          "frequency": 12,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_73",
+          "name": "FORD",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 9,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_112",
+          "name": "EMBASSY",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_309",
+          "name": "METZ",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q22690",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_324",
+          "name": "UNIT",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_324",
+          "name": "UNIT",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q676544",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_39",
+          "name": "BERKELEY",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q168756",
+          "frequency": 5,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_62",
+          "name": "SELFRIDGES",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q1475656",
+          "frequency": 4,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_346",
+          "name": "THE SPEARS UNIT",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_356",
+          "name": "DRUMMONDS BANK",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q5309249",
+          "frequency": 2,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_368",
+          "name": "NAVY",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_366",
+          "name": "THE ITALIAN RESTAURANT",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_14",
+          "name": "THE KNIGHTSBRIDGE GRILL",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q26328",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_373",
+          "name": "THE GREEN PANTRY",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_376",
+          "name": "CORY BROS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 4,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_279",
+          "name": "OFFICE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_373",
+          "name": "THE GREEN PANTRY",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q69488",
+          "frequency": 3,
+          "wikicolour": "red"
+        },{
+          "id": "Cardiff_demo_ORG_381",
+          "name": "SHREWSBURY HOUSE",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_388",
+          "name": "SPINKS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_401",
+          "name": "SEFA",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_420",
+          "name": "THE STATION HOTEL",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 3,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_207",
+          "name": "RED CROSS",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 11,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_434",
+          "name": "PARLIAMENT",
+          "type": "ORG",
+          "wikilink": "nan",
+          "frequency": 2,
+          "wikicolour": "blue"
+        },{
+          "id": "Cardiff_demo_ORG_440",
+          "name": "RAF",
+          "type": "ORG",
+          "wikilink": "https://www.wikidata.org/wiki/Q165862",
+          "frequency": 3,
+          "wikicolour": "red"
+        }], "links": [{
+            "source": "Cardiff_demo_ORG_18",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_93",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 6
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_463",
+            "frequency": 6
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 34
+        },{
+            "source": "Cardiff_demo_PERSON_369",
+            "target": "Cardiff_demo_PERSON_463",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_659",
+            "target": "Cardiff_demo_PERSON_658",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_659",
+            "target": "Cardiff_demo_EVENT_26",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_658",
+            "target": "Cardiff_demo_EVENT_26",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_720",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_126",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_126",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_126",
+            "target": "Cardiff_demo_PERSON_128",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_126",
+            "target": "Cardiff_demo_PERSON_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_126",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_128",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 5
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_PERSON_128",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_PERSON_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_128",
+            "target": "Cardiff_demo_PERSON_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_128",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_73",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_146",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_146",
+            "target": "Cardiff_demo_PERSON_588",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_146",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_PERSON_588",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 8
+        },{
+            "source": "Cardiff_demo_PERSON_588",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 8
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 38
+        },{
+            "source": "Cardiff_demo_PERSON_136",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_136",
+            "target": "Cardiff_demo_PERSON_743",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_136",
+            "target": "Cardiff_demo_PERSON_268",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_136",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_743",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_268",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_743",
+            "target": "Cardiff_demo_PERSON_268",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_743",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_268",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_267",
+            "target": "Cardiff_demo_ORG_263",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_267",
+            "target": "Cardiff_demo_ORG_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_267",
+            "target": "Cardiff_demo_PERSON_777",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_267",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_267",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_ORG_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_PERSON_777",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_196",
+            "target": "Cardiff_demo_PERSON_777",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_196",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_196",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_777",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_777",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_500",
+            "frequency": 5
+        },{
+            "source": "Cardiff_demo_EVENT_31",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 8
+        },{
+            "source": "Cardiff_demo_EVENT_31",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 16
+        },{
+            "source": "Cardiff_demo_PERSON_896",
+            "target": "Cardiff_demo_ORG_281",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_659",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_659",
+            "target": "Cardiff_demo_ORG_266",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_658",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_658",
+            "target": "Cardiff_demo_ORG_266",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_267",
+            "target": "Cardiff_demo_ORG_266",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_526",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_146",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_PERSON_106",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_PERSON_240",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_EVENT_9",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_PERSON_240",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_EVENT_9",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_240",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_EVENT_9",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_240",
+            "target": "Cardiff_demo_EVENT_9",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_460",
+            "target": "Cardiff_demo_PERSON_463",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_460",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_463",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 7
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_ORG_155",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_155",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_297",
+            "target": "Cardiff_demo_ORG_297",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_ORG_209",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 12
+        },{
+            "source": "Cardiff_demo_EVENT_17",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_42",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_540",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_540",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_603",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_607",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_PERSON_607",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_607",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_65",
+            "target": "Cardiff_demo_PERSON_173",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_65",
+            "target": "Cardiff_demo_PERSON_85",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_65",
+            "target": "Cardiff_demo_PERSON_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_85",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_207",
+            "target": "Cardiff_demo_ORG_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_207",
+            "target": "Cardiff_demo_ORG_366",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_213",
+            "target": "Cardiff_demo_ORG_366",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_155",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_EVENT_38",
+            "target": "Cardiff_demo_EVENT_19",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_440",
+            "target": "Cardiff_demo_ORG_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_440",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_262",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_562",
+            "target": "Cardiff_demo_ORG_146",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_522",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_522",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_140",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_237",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_237",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_348",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_936",
+            "target": "Cardiff_demo_ORG_207",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_363",
+            "frequency": 6
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_363",
+            "frequency": 5
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_ORG_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_917",
+            "target": "Cardiff_demo_ORG_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_917",
+            "target": "Cardiff_demo_ORG_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_207",
+            "target": "Cardiff_demo_ORG_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_213",
+            "target": "Cardiff_demo_PERSON_179",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_515",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_486",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_203",
+            "target": "Cardiff_demo_PERSON_7",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_46",
+            "target": "Cardiff_demo_PERSON_295",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_295",
+            "target": "Cardiff_demo_PERSON_295",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_359",
+            "target": "Cardiff_demo_ORG_94",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_359",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_94",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_ORG_39",
+            "target": "Cardiff_demo_PERSON_877",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_39",
+            "target": "Cardiff_demo_ORG_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_877",
+            "target": "Cardiff_demo_ORG_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_901",
+            "target": "Cardiff_demo_ORG_401",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_901",
+            "target": "Cardiff_demo_ORG_281",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_401",
+            "target": "Cardiff_demo_ORG_281",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_822",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_152",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_ORG_152",
+            "target": "Cardiff_demo_PERSON_505",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_505",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_46",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_48",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_46",
+            "target": "Cardiff_demo_PERSON_48",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_207",
+            "target": "Cardiff_demo_PERSON_587",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_510",
+            "target": "Cardiff_demo_EVENT_19",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_510",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_19",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_373",
+            "target": "Cardiff_demo_PERSON_900",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_261",
+            "target": "Cardiff_demo_PERSON_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_261",
+            "target": "Cardiff_demo_PERSON_126",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_261",
+            "target": "Cardiff_demo_ORG_39",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_262",
+            "target": "Cardiff_demo_PERSON_126",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_262",
+            "target": "Cardiff_demo_ORG_39",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_126",
+            "target": "Cardiff_demo_ORG_39",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_ORG_74",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_181",
+            "target": "Cardiff_demo_PERSON_46",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_495",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_20",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_749",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_ORG_217",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_ORG_217",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_217",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_ORG_149",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_358",
+            "target": "Cardiff_demo_ORG_69",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_358",
+            "target": "Cardiff_demo_PERSON_358",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_463",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_369",
+            "target": "Cardiff_demo_PERSON_460",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_369",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_460",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_890",
+            "target": "Cardiff_demo_ORG_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_115",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_89",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_ORG_37",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_87",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_162",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_89",
+            "target": "Cardiff_demo_ORG_37",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_89",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_89",
+            "target": "Cardiff_demo_PERSON_87",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_89",
+            "target": "Cardiff_demo_PERSON_162",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_37",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_37",
+            "target": "Cardiff_demo_PERSON_87",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_37",
+            "target": "Cardiff_demo_PERSON_162",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_87",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_162",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_162",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 9
+        },{
+            "source": "Cardiff_demo_ORG_434",
+            "target": "Cardiff_demo_PERSON_917",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_767",
+            "target": "Cardiff_demo_EVENT_38",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 8
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_80",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 5
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_EVENT_21",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_EVENT_21",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_369",
+            "target": "Cardiff_demo_EVENT_21",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_281",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_267",
+            "target": "Cardiff_demo_PERSON_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_267",
+            "target": "Cardiff_demo_PERSON_281",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_267",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_267",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_262",
+            "target": "Cardiff_demo_PERSON_281",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_262",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_262",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_281",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_281",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_ORG_94",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_PERSON_422",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_94",
+            "target": "Cardiff_demo_PERSON_422",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_440",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_188",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_188",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_188",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_970",
+            "target": "Cardiff_demo_PERSON_970",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_ORG_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_PERSON_729",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_ORG_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_PERSON_729",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_64",
+            "target": "Cardiff_demo_PERSON_729",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_ORG_297",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_381",
+            "target": "Cardiff_demo_ORG_376",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_464",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_460",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_464",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_464",
+            "target": "Cardiff_demo_PERSON_460",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_459",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_736",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_ORG_260",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_ORG_244",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_PERSON_736",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_ORG_260",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_ORG_244",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_736",
+            "target": "Cardiff_demo_ORG_260",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_736",
+            "target": "Cardiff_demo_ORG_244",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_736",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_736",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_260",
+            "target": "Cardiff_demo_ORG_244",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_260",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_260",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_244",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_244",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_46",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_116",
+            "target": "Cardiff_demo_PERSON_156",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_116",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_156",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_332",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_330",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_177",
+            "target": "Cardiff_demo_PERSON_120",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_361",
+            "target": "Cardiff_demo_PERSON_947",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_102",
+            "target": "Cardiff_demo_PERSON_764",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_ORG_93",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_213",
+            "target": "Cardiff_demo_ORG_401",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_98",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_746",
+            "target": "Cardiff_demo_PERSON_670",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_164",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_900",
+            "target": "Cardiff_demo_PERSON_907",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_907",
+            "target": "Cardiff_demo_PERSON_907",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_379",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_610",
+            "target": "Cardiff_demo_ORG_155",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_610",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_610",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_610",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_155",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_155",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_608",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_495",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_31",
+            "target": "Cardiff_demo_PERSON_844",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_31",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_EVENT_31",
+            "target": "Cardiff_demo_EVENT_31",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_175",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_175",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_175",
+            "target": "Cardiff_demo_ORG_102",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_ORG_102",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_102",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_335",
+            "target": "Cardiff_demo_PERSON_335",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_ORG_287",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_256",
+            "target": "Cardiff_demo_PERSON_106",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_256",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_256",
+            "target": "Cardiff_demo_PERSON_311",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_PERSON_311",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_292",
+            "target": "Cardiff_demo_PERSON_311",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_590",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_590",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_590",
+            "target": "Cardiff_demo_ORG_102",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_ORG_102",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_360",
+            "target": "Cardiff_demo_PERSON_627",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_360",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_627",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_ORG_309",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_PERSON_855",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_309",
+            "target": "Cardiff_demo_PERSON_855",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_913",
+            "target": "Cardiff_demo_EVENT_42",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_328",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_40",
+            "target": "Cardiff_demo_PERSON_42",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_389",
+            "target": "Cardiff_demo_ORG_6",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_102",
+            "target": "Cardiff_demo_ORG_112",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_322",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_PERSON_46",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_73",
+            "target": "Cardiff_demo_ORG_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_ORG_164",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 5
+        },{
+            "source": "Cardiff_demo_PERSON_131",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_131",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_131",
+            "target": "Cardiff_demo_ORG_175",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_ORG_175",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_ORG_175",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_269",
+            "target": "Cardiff_demo_PERSON_106",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_269",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_106",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_152",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_PERSON_500",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_859",
+            "target": "Cardiff_demo_PERSON_861",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_PERSON_373",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_16",
+            "target": "Cardiff_demo_PERSON_12",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_16",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_12",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_PERSON_165",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_384",
+            "target": "Cardiff_demo_PERSON_383",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_384",
+            "target": "Cardiff_demo_PERSON_381",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_383",
+            "target": "Cardiff_demo_PERSON_381",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_376",
+            "target": "Cardiff_demo_PERSON_811",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_741",
+            "target": "Cardiff_demo_ORG_39",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_7",
+            "target": "Cardiff_demo_PERSON_9",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_9",
+            "target": "Cardiff_demo_PERSON_116",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_720",
+            "target": "Cardiff_demo_ORG_256",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_25",
+            "target": "Cardiff_demo_PERSON_540",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_389",
+            "target": "Cardiff_demo_PERSON_930",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_176",
+            "target": "Cardiff_demo_PERSON_145",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_176",
+            "target": "Cardiff_demo_PERSON_126",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_176",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_176",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_145",
+            "target": "Cardiff_demo_PERSON_126",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_145",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_145",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_281",
+            "target": "Cardiff_demo_ORG_381",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_505",
+            "target": "Cardiff_demo_PERSON_640",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_822",
+            "target": "Cardiff_demo_PERSON_827",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_822",
+            "target": "Cardiff_demo_ORG_112",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_822",
+            "target": "Cardiff_demo_PERSON_823",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_827",
+            "target": "Cardiff_demo_ORG_112",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_827",
+            "target": "Cardiff_demo_PERSON_823",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_112",
+            "target": "Cardiff_demo_PERSON_823",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_207",
+            "target": "Cardiff_demo_ORG_373",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_826",
+            "target": "Cardiff_demo_PERSON_823",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_826",
+            "target": "Cardiff_demo_PERSON_825",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_826",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_826",
+            "target": "Cardiff_demo_PERSON_824",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_826",
+            "target": "Cardiff_demo_ORG_297",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_823",
+            "target": "Cardiff_demo_PERSON_825",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_823",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_823",
+            "target": "Cardiff_demo_PERSON_824",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_823",
+            "target": "Cardiff_demo_ORG_297",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_825",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_825",
+            "target": "Cardiff_demo_PERSON_824",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_825",
+            "target": "Cardiff_demo_ORG_297",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_PERSON_824",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_824",
+            "target": "Cardiff_demo_ORG_297",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_888",
+            "target": "Cardiff_demo_PERSON_900",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_888",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_900",
+            "target": "Cardiff_demo_ORG_279",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_ORG_41",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_PERSON_191",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_PERSON_270",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_41",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_41",
+            "target": "Cardiff_demo_PERSON_191",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_41",
+            "target": "Cardiff_demo_PERSON_270",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_41",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_41",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_191",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_270",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_191",
+            "target": "Cardiff_demo_PERSON_270",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_191",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_191",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_270",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_270",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_486",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_486",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 7
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_ORG_269",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_838",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_328",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_325",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_328",
+            "target": "Cardiff_demo_PERSON_325",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_328",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_325",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_325",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_EVENT_17",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_17",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_381",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_379",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_381",
+            "target": "Cardiff_demo_PERSON_379",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_131",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_608",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_608",
+            "target": "Cardiff_demo_PERSON_608",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_818",
+            "target": "Cardiff_demo_PERSON_829",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_355",
+            "target": "Cardiff_demo_PERSON_749",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_355",
+            "target": "Cardiff_demo_ORG_61",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_749",
+            "target": "Cardiff_demo_ORG_61",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_926",
+            "target": "Cardiff_demo_PERSON_926",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_31",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_281",
+            "target": "Cardiff_demo_PERSON_165",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_165",
+            "target": "Cardiff_demo_PERSON_901",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_913",
+            "target": "Cardiff_demo_ORG_401",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_811",
+            "target": "Cardiff_demo_PERSON_809",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_359",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_PERSON_767",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_ORG_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_767",
+            "target": "Cardiff_demo_ORG_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_363",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_109",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_109",
+            "target": "Cardiff_demo_PERSON_106",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_106",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_394",
+            "target": "Cardiff_demo_PERSON_330",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_859",
+            "target": "Cardiff_demo_PERSON_860",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_68",
+            "target": "Cardiff_demo_PERSON_348",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_42",
+            "target": "Cardiff_demo_PERSON_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_42",
+            "target": "Cardiff_demo_PERSON_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_62",
+            "target": "Cardiff_demo_PERSON_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_PERSON_743",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_ORG_16",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_PERSON_743",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_16",
+            "target": "Cardiff_demo_PERSON_743",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_213",
+            "target": "Cardiff_demo_ORG_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_46",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_46",
+            "target": "Cardiff_demo_PERSON_720",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_46",
+            "target": "Cardiff_demo_PERSON_74",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_720",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_246",
+            "target": "Cardiff_demo_PERSON_74",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_720",
+            "target": "Cardiff_demo_PERSON_74",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_772",
+            "target": "Cardiff_demo_PERSON_777",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_772",
+            "target": "Cardiff_demo_ORG_267",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_249",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_351",
+            "target": "Cardiff_demo_PERSON_346",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_351",
+            "target": "Cardiff_demo_PERSON_332",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_346",
+            "target": "Cardiff_demo_PERSON_332",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_423",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_423",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_PERSON_246",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_64",
+            "target": "Cardiff_demo_PERSON_162",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_65",
+            "target": "Cardiff_demo_PERSON_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_65",
+            "target": "Cardiff_demo_PERSON_74",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_73",
+            "target": "Cardiff_demo_PERSON_74",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_281",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_270",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_251",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_281",
+            "target": "Cardiff_demo_PERSON_270",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_281",
+            "target": "Cardiff_demo_PERSON_251",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_270",
+            "target": "Cardiff_demo_PERSON_251",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_833",
+            "target": "Cardiff_demo_PERSON_833",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_237",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_235",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_237",
+            "target": "Cardiff_demo_PERSON_213",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_237",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_237",
+            "target": "Cardiff_demo_PERSON_235",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_237",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_213",
+            "target": "Cardiff_demo_PERSON_235",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_235",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_235",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_394",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_427",
+            "target": "Cardiff_demo_PERSON_419",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_486",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_73",
+            "target": "Cardiff_demo_PERSON_826",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_262",
+            "target": "Cardiff_demo_ORG_346",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_PERSON_824",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_PERSON_825",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_PERSON_823",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_368",
+            "target": "Cardiff_demo_ORG_388",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_368",
+            "target": "Cardiff_demo_ORG_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_388",
+            "target": "Cardiff_demo_ORG_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_73",
+            "target": "Cardiff_demo_PERSON_322",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_366",
+            "target": "Cardiff_demo_PERSON_888",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_14",
+            "target": "Cardiff_demo_PERSON_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_825",
+            "target": "Cardiff_demo_PERSON_829",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_825",
+            "target": "Cardiff_demo_PERSON_833",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_829",
+            "target": "Cardiff_demo_PERSON_824",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_829",
+            "target": "Cardiff_demo_PERSON_823",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_829",
+            "target": "Cardiff_demo_PERSON_833",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_824",
+            "target": "Cardiff_demo_PERSON_833",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_823",
+            "target": "Cardiff_demo_PERSON_833",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_85",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_ORG_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_PERSON_85",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_ORG_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_ORG_64",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_901",
+            "target": "Cardiff_demo_ORG_368",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_901",
+            "target": "Cardiff_demo_ORG_346",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_368",
+            "target": "Cardiff_demo_ORG_346",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_156",
+            "target": "Cardiff_demo_PERSON_181",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_156",
+            "target": "Cardiff_demo_PERSON_179",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_156",
+            "target": "Cardiff_demo_PERSON_176",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_156",
+            "target": "Cardiff_demo_PERSON_177",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_156",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_181",
+            "target": "Cardiff_demo_PERSON_179",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_181",
+            "target": "Cardiff_demo_PERSON_176",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_181",
+            "target": "Cardiff_demo_PERSON_177",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_181",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_176",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_177",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_176",
+            "target": "Cardiff_demo_PERSON_177",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_176",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_177",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_203",
+            "target": "Cardiff_demo_PERSON_174",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_203",
+            "target": "Cardiff_demo_PERSON_228",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_174",
+            "target": "Cardiff_demo_PERSON_228",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_844",
+            "target": "Cardiff_demo_PERSON_814",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_844",
+            "target": "Cardiff_demo_ORG_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_ORG_73",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_179",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_729",
+            "target": "Cardiff_demo_PERSON_762",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_729",
+            "target": "Cardiff_demo_PERSON_736",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_729",
+            "target": "Cardiff_demo_PERSON_767",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_729",
+            "target": "Cardiff_demo_PERSON_772",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_762",
+            "target": "Cardiff_demo_PERSON_736",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_762",
+            "target": "Cardiff_demo_PERSON_767",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_762",
+            "target": "Cardiff_demo_PERSON_772",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_736",
+            "target": "Cardiff_demo_PERSON_767",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_736",
+            "target": "Cardiff_demo_PERSON_772",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_767",
+            "target": "Cardiff_demo_PERSON_772",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 5
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_ORG_260",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_93",
+            "target": "Cardiff_demo_ORG_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_260",
+            "target": "Cardiff_demo_ORG_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_251",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_98",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_128",
+            "target": "Cardiff_demo_PERSON_131",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_128",
+            "target": "Cardiff_demo_PERSON_136",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_131",
+            "target": "Cardiff_demo_PERSON_136",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_486",
+            "target": "Cardiff_demo_PERSON_533",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_533",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_145",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_145",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_145",
+            "target": "Cardiff_demo_ORG_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_PERSON_117",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_ORG_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_117",
+            "target": "Cardiff_demo_ORG_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_ORG_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_20",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_20",
+            "target": "Cardiff_demo_EVENT_21",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_20",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_20",
+            "target": "Cardiff_demo_EVENT_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_EVENT_18",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_EVENT_21",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_21",
+            "target": "Cardiff_demo_EVENT_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_EVENT_18",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_227",
+            "target": "Cardiff_demo_PERSON_883",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_416",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_460",
+            "frequency": 4
+        },{
+            "source": "Cardiff_demo_PERSON_590",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_590",
+            "target": "Cardiff_demo_PERSON_627",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_627",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_325",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_874",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_324",
+            "target": "Cardiff_demo_ORG_262",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_324",
+            "target": "Cardiff_demo_PERSON_874",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_262",
+            "target": "Cardiff_demo_PERSON_874",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_ORG_196",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_196",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_196",
+            "target": "Cardiff_demo_PERSON_500",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_500",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_173",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_295",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_355",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_295",
+            "target": "Cardiff_demo_PERSON_355",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_416",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_947",
+            "target": "Cardiff_demo_PERSON_829",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_PERSON_817",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_814",
+            "target": "Cardiff_demo_PERSON_818",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_817",
+            "target": "Cardiff_demo_PERSON_818",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_422",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_120",
+            "target": "Cardiff_demo_PERSON_109",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_113",
+            "target": "Cardiff_demo_ORG_114",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_519",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_519",
+            "target": "Cardiff_demo_ORG_114",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_519",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_519",
+            "target": "Cardiff_demo_PERSON_587",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_ORG_114",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_587",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_587",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_587",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_947",
+            "target": "Cardiff_demo_PERSON_936",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_ORG_227",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_526",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_267",
+            "target": "Cardiff_demo_PERSON_268",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_267",
+            "target": "Cardiff_demo_PERSON_261",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_268",
+            "target": "Cardiff_demo_PERSON_261",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_102",
+            "target": "Cardiff_demo_PERSON_419",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_ORG_114",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_174",
+            "target": "Cardiff_demo_PERSON_144",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_174",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_174",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_174",
+            "target": "Cardiff_demo_PERSON_173",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_144",
+            "target": "Cardiff_demo_PERSON_107",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_107",
+            "target": "Cardiff_demo_PERSON_173",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_281",
+            "target": "Cardiff_demo_PERSON_62",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_281",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_281",
+            "target": "Cardiff_demo_PERSON_746",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_62",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_62",
+            "target": "Cardiff_demo_PERSON_746",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_728",
+            "target": "Cardiff_demo_PERSON_746",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_81",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_87",
+            "target": "Cardiff_demo_PERSON_80",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_81",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_80",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_81",
+            "target": "Cardiff_demo_PERSON_80",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_81",
+            "target": "Cardiff_demo_PERSON_89",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_80",
+            "target": "Cardiff_demo_PERSON_89",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_PERSON_510",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_510",
+            "target": "Cardiff_demo_PERSON_321",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_510",
+            "target": "Cardiff_demo_PERSON_526",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_PERSON_526",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_351",
+            "target": "Cardiff_demo_ORG_67",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_351",
+            "target": "Cardiff_demo_PERSON_373",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_228",
+            "target": "Cardiff_demo_PERSON_196",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_228",
+            "target": "Cardiff_demo_PERSON_122",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_228",
+            "target": "Cardiff_demo_ORG_41",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_228",
+            "target": "Cardiff_demo_PERSON_85",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_41",
+            "target": "Cardiff_demo_PERSON_85",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_38",
+            "target": "Cardiff_demo_PERSON_795",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_369",
+            "target": "Cardiff_demo_ORG_113",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 3
+        },{
+            "source": "Cardiff_demo_PERSON_610",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_188",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_196",
+            "target": "Cardiff_demo_PERSON_199",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_188",
+            "target": "Cardiff_demo_PERSON_199",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_85",
+            "target": "Cardiff_demo_PERSON_199",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_592",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_235",
+            "target": "Cardiff_demo_PERSON_770",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_770",
+            "target": "Cardiff_demo_PERSON_770",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_501",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_369",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_164",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_ORG_149",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_603",
+            "target": "Cardiff_demo_ORG_164",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_ORG_149",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_ORG_164",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_149",
+            "target": "Cardiff_demo_ORG_164",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_149",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_ORG_68",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_115",
+            "target": "Cardiff_demo_PERSON_369",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_115",
+            "target": "Cardiff_demo_PERSON_460",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_ORG_39",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_PERSON_755",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_758",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_39",
+            "target": "Cardiff_demo_PERSON_755",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_39",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_755",
+            "target": "Cardiff_demo_PERSON_728",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_359",
+            "target": "Cardiff_demo_PERSON_360",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_359",
+            "target": "Cardiff_demo_PERSON_295",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_360",
+            "target": "Cardiff_demo_PERSON_295",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_227",
+            "target": "Cardiff_demo_ORG_207",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_62",
+            "target": "Cardiff_demo_PERSON_888",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_62",
+            "target": "Cardiff_demo_PERSON_887",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_888",
+            "target": "Cardiff_demo_PERSON_887",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_67",
+            "target": "Cardiff_demo_PERSON_486",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_272",
+            "target": "Cardiff_demo_ORG_244",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_720",
+            "target": "Cardiff_demo_ORG_269",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_512",
+            "target": "Cardiff_demo_ORG_224",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_ORG_224",
+            "target": "Cardiff_demo_ORG_224",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_618",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_618",
+            "target": "Cardiff_demo_ORG_209",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_51",
+            "target": "Cardiff_demo_ORG_209",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_423",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_394",
+            "target": "Cardiff_demo_PERSON_481",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_359",
+            "target": "Cardiff_demo_PERSON_422",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_324",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_263",
+            "target": "Cardiff_demo_PERSON_729",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_16",
+            "target": "Cardiff_demo_PERSON_729",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_321",
+            "target": "Cardiff_demo_EVENT_18",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_18",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_EVENT_18",
+            "target": "Cardiff_demo_PERSON_503",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_18",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_502",
+            "target": "Cardiff_demo_PERSON_502",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_503",
+            "target": "Cardiff_demo_PERSON_461",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_461",
+            "target": "Cardiff_demo_PERSON_501",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_PERSON_394",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_324",
+            "target": "Cardiff_demo_ORG_114",
+            "frequency": 2
+        },{
+            "source": "Cardiff_demo_PERSON_394",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_394",
+            "target": "Cardiff_demo_PERSON_512",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_114",
+            "target": "Cardiff_demo_PERSON_361",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_191",
+            "target": "Cardiff_demo_PERSON_188",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_191",
+            "target": "Cardiff_demo_PERSON_40",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_188",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_122",
+            "target": "Cardiff_demo_PERSON_40",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_188",
+            "target": "Cardiff_demo_PERSON_40",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_37",
+            "target": "Cardiff_demo_PERSON_292",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_888",
+            "target": "Cardiff_demo_PERSON_896",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_587",
+            "target": "Cardiff_demo_PERSON_827",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_366",
+            "target": "Cardiff_demo_ORG_434",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_592",
+            "target": "Cardiff_demo_PERSON_51",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_269",
+            "target": "Cardiff_demo_PERSON_174",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_ORG_269",
+            "target": "Cardiff_demo_ORG_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_PERSON_174",
+            "target": "Cardiff_demo_ORG_272",
+            "frequency": 1
+        },{
+            "source": "Cardiff_demo_EVENT_38",
+            "target": "Cardiff_demo_EVENT_42",
+            "frequency": 1
+        }]}
