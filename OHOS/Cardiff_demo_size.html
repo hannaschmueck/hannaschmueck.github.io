@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="../datasets/OHOS/logo/OHOS.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cardiff demo - full - wikilinks</title>
+  <title>Cardiff demo - sizebyfrequency</title>
   <style> body { margin: 0; } 
 #ohos-logo {
   position: absolute;
@@ -14,13 +14,6 @@
   z-index: 1;
 }
 
-#morrab-logo {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  opacity: 0.5;
-  z-index: 1;
-}
 #overlay {
   position: absolute;
   bottom: 5px;
@@ -30,7 +23,6 @@
   font-size: 12px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
-  text-align: center;
 }
 
   </style>
@@ -40,34 +32,31 @@
 </head>
 <body>
   
-  <div id="3d-graph"></div>
-  <a href="https://ohos.ac.uk" target="_blank" style="pointer-events: auto;">
-  <img id="ohos-logo" src="../datasets/OHOS/logo/OHOS.png" width="70" height="70">
-</a>
+    <div id="3d-graph"></div>
+    <a href="https://ohos.ac.uk" target="_blank" style="pointer-events: auto;">
+    <img id="ohos-logo" src="../datasets/OHOS/logo/OHOS.png" width="70" height="70">
+  </a>
 
-<div id="overlay">This network shows the links between all locations, geopolitical entites, events, organisations, people, works of art, 
-  and products that are connected via shared mentions and relations to items. 
-  Right clicking on an entry opens the associated wikidata link if available.</div>
+  <div id="overlay">Size by frequency</div>
   <script>
 
     const loader = new THREE.FontLoader();
     loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-         .jsonUrl('../datasets/OHOS/PCW_demo_output_PRODUCT_GPE_ORG_LOC_WORK_OF_ART_EVENT_PERSON.json')
-        // .jsonUrl('../Results/PCW_demo_output_PRODUCT_GPE_ORG_LOC_WORK_OF_ART_EVENT_PERSON.json')
-        
+        .jsonUrl('../datasets/OHOS/Cardiff_demo_output_PERSON_EVENT_ORG_subsample.json')
         .showNavInfo(0)
         .cooldownTicks(400)
         .linkWidth(.5)
         .linkOpacity(.1)
         .onNodeRightClick((node, event) => {
-           if (node.wikilink !== 'nan') {
-             window.open(node.wikilink, '_blank');
-           }})
+          if (node.wikilink !== 'nan') {
+            window.open(node.wikilink, '_blank');
+          }
+        })
         .nodeThreeObject(node => {
           const group = new THREE.Group();
-          const sphereGeometry = new THREE.SphereGeometry(5);
+          const sphereGeometry = new THREE.SphereGeometry(Math.log(node.frequency)*6);
           const sphereMaterial = new THREE.MeshBasicMaterial({ color: 
             node.type === 'PERSON' ? 0x494D88  :
             node.type === 'EVENT' ? 0xFA8334  : 
@@ -76,7 +65,10 @@
             node.type === 'LOC' ? 0xF1D143  :
             node.type === 'PRODUCT' ? 0xCBC8D2  :
             node.type === 'WORK_OF_ART' ? 0x857F92  :
-            0xffffff });
+            0xffffff,
+    opacity: 0.8,
+    transparent: true
+  });
           const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
           group.add(sphere);
 
@@ -88,8 +80,10 @@
             });
             const textMaterial = new THREE.MeshBasicMaterial({ color: 'lightgrey' });
             const textMesh = new THREE.Mesh(textGeometry, textMaterial);
-            textMesh.position.set(10, 10, 0);
+            textMesh.position.set(10, 10, 0); // Adjust as needed
             group.add(textMesh);
+
+            
           }
 
           return group;
