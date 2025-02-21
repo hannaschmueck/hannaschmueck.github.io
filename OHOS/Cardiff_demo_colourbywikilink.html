@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" href="../datasets/OHOS/logo/OHOS.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Morrab Archive Network</title>
+  <title>Cardiff - demo -size by frequency </title>
   <style> body { margin: 0; } 
 #ohos-logo {
   position: absolute;
@@ -14,13 +14,6 @@
   z-index: 1;
 }
 
-#morrab-logo {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  opacity: 0.5;
-  z-index: 1;
-}
 #overlay {
   position: absolute;
   bottom: 5px;
@@ -30,7 +23,6 @@
   font-size: 12px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
-  text-align: center;
 }
 
   </style>
@@ -44,38 +36,34 @@
   <a href="https://ohos.ac.uk" target="_blank" style="pointer-events: auto;">
   <img id="ohos-logo" src="../datasets/OHOS/logo/OHOS.png" width="70" height="70">
 </a>
-<a href="https://morrablibrary.org.uk/" target="_blank" style="pointer-events: auto;">
-    <img id="morrab-logo" src="../datasets/OHOS/logo/morrab.png" width="70" height="70">
-  </a>
-<div id="overlay">This network shows the links between all events, organisations, people, works of art, 
-  and products that are connected via shared mentions and relations to items in the Morrab Archive. </div>
+<div id="overlay">This network shows the demo network with entites that have a wikilink coloured red and others blue.</div>
   <script>
 
     const loader = new THREE.FontLoader();
     loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/OHOS/MORRAB_ORG_EVENT_WORK_OF_ART_PERSON_PRODUCT.json')
+        .jsonUrl('../datasets/OHOS/PCW_demo_output_PRODUCT_GPE_ORG_LOC_WORK_OF_ART_EVENT_PERSON.json')
         .showNavInfo(0)
         .cooldownTicks(400)
         .linkWidth(.5)
         .linkOpacity(.1)
+        .onNodeRightClick((node, event) => {
+          if (node.wikilink !== 'nan') {
+            window.open(node.wikilink, '_blank');
+          }
+        })
         .nodeThreeObject(node => {
           const group = new THREE.Group();
           const sphereGeometry = new THREE.SphereGeometry(5);
           const sphereMaterial = new THREE.MeshBasicMaterial({ color: 
-            node.type === 'PERSON' ? 0x494D88  :
-            node.type === 'EVENT' ? 0xFA8334  : 
-            node.type === 'ORG' ? 0x067584  :
-            node.type === 'GPE' ? 0xF1D143  :
-            node.type === 'LOC' ? 0xF1D143  :
-            node.type === 'PRODUCT' ? 0xCBC8D2  :
-            node.type === 'WORK_OF_ART' ? 0x857F92  :
+            node.wikicolour === 'blue' ? 0x494D88  :
+            node.wikicolour === 'red' ? 0x8B0000  :
             0xffffff });
           const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
           group.add(sphere);
 
-          if (node.frequency>50) {
+          if (node.frequency>5) {
             const textGeometry = new THREE.TextGeometry(node.name, {
               font: font,
               size: 5,
@@ -83,8 +71,10 @@
             });
             const textMaterial = new THREE.MeshBasicMaterial({ color: 'lightgrey' });
             const textMesh = new THREE.Mesh(textGeometry, textMaterial);
-            textMesh.position.set(10, 10, 0);
+            textMesh.position.set(10, 10, 0); // Adjust as needed
             group.add(textMesh);
+
+            
           }
 
           return group;

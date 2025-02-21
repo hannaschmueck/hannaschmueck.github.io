@@ -4,7 +4,7 @@
   <link rel="icon" href="../datasets/OHOS/logo/OHOS.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Morrab Archive Network</title>
+  <title>Cardiff demo - subset - wikilinks</title>
   <style> body { margin: 0; } 
 #ohos-logo {
   position: absolute;
@@ -44,22 +44,24 @@
   <a href="https://ohos.ac.uk" target="_blank" style="pointer-events: auto;">
   <img id="ohos-logo" src="../datasets/OHOS/logo/OHOS.png" width="70" height="70">
 </a>
-<a href="https://morrablibrary.org.uk/" target="_blank" style="pointer-events: auto;">
-    <img id="morrab-logo" src="../datasets/OHOS/logo/morrab.png" width="70" height="70">
-  </a>
-<div id="overlay">This network shows the links between all events, organisations, people, works of art, 
-  and products that are connected via shared mentions and relations to items in the Morrab Archive. </div>
+
+<div id="overlay">This network shows non-unique links between only events, organisations,and people that are connected via shared mentions and relations to items.</div>
   <script>
 
     const loader = new THREE.FontLoader();
     loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function (font) {
       const Graph = ForceGraph3D()
         (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/OHOS/MORRAB_ORG_EVENT_WORK_OF_ART_PERSON_PRODUCT.json')
+         .jsonUrl('../datasets/OHOS/Cardiff_demo_output_PERSON_EVENT_ORG_subsample.json')
+        
         .showNavInfo(0)
         .cooldownTicks(400)
-        .linkWidth(.5)
-        .linkOpacity(.1)
+        .linkWidth(1)
+        .linkOpacity(.2)
+        .onNodeRightClick((node, event) => {
+           if (node.wikilink !== 'nan') {
+             window.open(node.wikilink, '_blank');
+           }})
         .nodeThreeObject(node => {
           const group = new THREE.Group();
           const sphereGeometry = new THREE.SphereGeometry(5);
@@ -75,7 +77,7 @@
           const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
           group.add(sphere);
 
-          if (node.frequency>50) {
+          if (node.frequency>10) {
             const textGeometry = new THREE.TextGeometry(node.name, {
               font: font,
               size: 5,
