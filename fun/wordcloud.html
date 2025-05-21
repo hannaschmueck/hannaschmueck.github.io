@@ -1,103 +1,66 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<body>
-  <script src="https://d3js.org/d3.v3.min.js"></script>
-  <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
-  <script>
-
-//Simple animated example of d3-cloud - https://github.com/jasondavies/d3-cloud
-//Based on https://github.com/jasondavies/d3-cloud/blob/master/examples/simple.html
-
-// Encapsulate the word cloud functionality
-function wordCloud(selector) {
-
-    var fill = d3.scale.category20();
-
-    //Construct the word cloud's SVG element
-    var svg = d3.select(selector).append("svg")
-        .attr("width", 500)
-        .attr("height", 500)
-        .append("g")
-        .attr("transform", "translate(250,250)");
-
-    //Draw the word cloud
-    function draw(words) {
-        var cloud = svg.selectAll("g text")
-                        .data(words, function(d) { return d.text; })
-
-        //Entering words
-        cloud.enter()
-            .append("text")
-            .style("font-family", "Arial")
-            .style("fill", function(d, i) { return fill(i); })
-            .attr("text-anchor", "middle")
-            .attr('font-size', 1)
-            .text(function(d) { return d.text; });
-
-        //Entering and existing words
-        cloud
-            .transition()
-                .duration(600)
-                .style("font-size", function(d) { return d.size + "px"; })
-                .attr("transform", function(d) {
-                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-                })
-                .style("fill-opacity", 1);
-
-        //Exiting words
-        cloud.exit()
-            .transition()
-                .duration(200)
-                .style('fill-opacity', 1e-6)
-                .attr('font-size', 1)
-                .remove();
-    }
-
-    //Use the module pattern to encapsulate the visualisation code. We'll
-    // expose only the parts that need to be public.
-    return {
-
-        //Recompute the word cloud for a new set of words. This method will
-        // asycnhronously call draw when the layout has been computed.
-        //The outside world will need to call this function, so make it part
-        // of the wordCloud return value.
-        update: function(words) {
-            d3.layout.cloud().size([500, 500])
-                .words(words)
-                .padding(5)
-                .rotate(function() { return ~~(Math.random() * 2) * 90; })
-                .font("Arial")
-                .fontSize(function(d) { return d.size; })
-                .on("end", draw)
-                .start();
-        }
-    }
-
+<div id="anychart-embed-NqAPYRCG" class="anychart-embed anychart-embed-NqAPYRCG">
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+<script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+<div id="ac_style_NqAPYRCG" style="display:none;">
+html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+</div>
+<script>(function(){
+function ac_add_to_head(el){
+	var head = document.getElementsByTagName('head')[0];
+	head.insertBefore(el,head.firstChild);
+}
+function ac_add_link(url){
+	var el = document.createElement('link');
+	el.rel='stylesheet';el.type='text/css';el.media='all';el.href=url;
+	ac_add_to_head(el);
+}
+function ac_add_style(css){
+	var ac_style = document.createElement('style');
+	if (ac_style.styleSheet) ac_style.styleSheet.cssText = css;
+	else ac_style.appendChild(document.createTextNode(css));
+	ac_add_to_head(ac_style);
 }
 
+ac_add_style(document.getElementById("ac_style_NqAPYRCG").innerHTML);
+ac_add_style(".anychart-embed-NqAPYRCG{width:600px;height:450px;}");
+})();</script>
+<div id="container"></div>
+<script>
+anychart.onDocumentReady(function () {
 
-//Read the CSV file containing words and frequencies
-d3.csv("https://hannaschmueck.github.io/fun/topics.csv", function(error, data) {
-    if (error) {
-        console.error(error);
-        
-        //Create a new instance of the word cloud visualisation.
-        var myWordCloud = wordCloud('body');
+  var data = [
+{"x": "patent", "value": 1, category: "Valentin Knappich"},
+    {"x": "dataset creation", "value": 2, category: "Valentin Knappich,Raphael Huber,Patrick Göttfert"},
+	{"x": "climate", "value": 1, category: "Raphael Huber,Patrick Göttfert"},
+	{"x": "sustainability report", "value": 1, category: "Raphael Huber,Patrick Göttfert"},
+	{"x": "BSc", "value": 2, category: "Raphael Huber,Patrick Göttfert"},
+	{"x": "PhD", "value": 1, category: "Valentin Knappich"},
+	{"x": "MSc", "value": 1, category: "Asma Shaikh"},
+	{"x": "eye-tracking", "value": 1, category: "Valentin Knappich"},
+	{"x": "conversational AI", "value": 1, category: "Asma Shaikh"},
+	{"x": "definiteness", "value": 1, category: "Valentin Knappich"}
+  ];
 
-        //Update the word cloud with the error message
-        myWordCloud.update([{text: "error", size: 100}]);
-    } else {
-        //Create a new instance of the word cloud visualisation.
-        var myWordCloud = wordCloud('body');
+  // create a tag cloud chart
+  var chart = anychart.tagCloud(data);
 
-        //Update the word cloud with the data from the CSV file
-        myWordCloud.update(data.map(function(d) {
-            return {text: d.word, size: +d.frequency};
-        }));
-        
-        console.log(data); // to show the output of the csv file in the console
-    }
+  // set the chart title
+  chart.title('Summer Semester 2025 HLT Seminar topics')
+  // set array of angles, by which words will be placed
+  chart.angles([0])
+  // enable color range
+  chart.colorRange(true);
+  // set color range length
+  chart.colorRange().length('80%');
+
+  // display chart
+  chart.container("container");
+  chart.draw();
 });
-
-
 </script>
+</div>
