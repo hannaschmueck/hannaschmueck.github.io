@@ -1,22 +1,24 @@
-City,Country,Latitude,Longitude,Event,Year,Date,Full_Title
-Banyuls-sur-Mer,France,42.4817,3.1317,École thématique d'été « Annotations »,2022,2022-06-01,École thématique d'été « Annotations »
-Vilnius,Lithuania,54.6872,25.2797,ICAME 46,2025,2025-06-01,ICAME 46
-Mainz,Germany,49.9929,8.2473,Brexit means Brexit? Ein Symposium,2017,2017-12-01,Brexit means Brexit? Ein Symposium - Akademie der Wissenschaften
-Lancaster,UK,54.0098,-2.7875,BAAL Corpus Linguistics SIG Workshop,2019,2019-11-01,"BAAL Corpus Linguistics Special Interest Group Annual Workshop: Corpora, Discourse and Society"
-Grenoble,France,45.1885,5.7245,Advanced Language Processing Winter School,2021,2021-01-01,Advanced Language Processing Winter School - ALPS
-Lancaster,UK,54.0098,-2.7875,Machine Learning for Humanists,2021,2021-06-01,Machine Learning for Humanists - N8 CIR
-Limerick,Ireland,52.6638,-8.6267,CL 2021,2021,2021-07-01,The International Corpus Linguistics Conference 2021
-Cambridge,UK,52.2055,0.121,ICAME 43,2022,2022-07-01,The 43rd Annual Conference of the International Computer Archive for Modern and Medieval English - Corpus Linguistics: A New Normal?
-London,UK,51.5074,-0.1278,CHIMED-3,2023,2023-05-01,"CHIMED-3, 3rd International Conference on Historical Medical Discourse"
-Lancaster,UK,54.0098,-2.7875,CL2023,2023,2023-07-01,"CL2023, 12th International Corpus Linguistics Conference"
-Vigo,Spain,42.2407,-8.7207,ICAME 45,2024,2024-06-01,The 45th Annual Conference of the International Computer Archive for Modern and Medieval English - Corpus Linguistics: Interlocking Corpora and Register(s): Diversity and Innovation
-Lancaster,UK,54.0098,-2.7875,UCREL NLP Summer School 2024,2024,2024-07-01,UCREL NLP Summer School 2024
-Manchester,UK,53.4630,-2.2320,Towards a National Collection Conference,2024,2024-11-01,Towards a National Collection Conference
-Manchester,UK,53.4709,-2.2953,BEYOND Conference,2024,2024-11-01,BEYOND Conference
-Lancaster,UK,54.0098,-2.7875,Digital Humanities Forum,2024,2024-12-01,Digital Humanities Forum
-Augsburg,Germany,48.3529,10.8865,HLT Augsburg Retreat,2025,2025-04-01,HLT Augsburg Retreat
-Edge Hill, UK,53.5583,-2.8692,Edge Hill Corpus Research Group,2023,2023-12-01,Edge Hill Corpus Research Group
-Glasgow, UK, 55.8718,-4.2882,Digital Preservation Toolkit for Community Archives Workshop,2025,2025-02,Digital Preservation Toolkit for Community Archives
-Birmingham,UK,52.4866,-1.8901,CL2025,2025,2025-07,"CL2025, 13th International Corpus Linguistics Conference"
-Bayreuth,Germany,49.9478,11.5789,CMC,2025,2025-09-03,"The 12th International Conference on CMC and Social Media Corpora for the Humanities"
-Hildesheim,Germany,52.1507,9.9511,KONVENS,2025,2025-09-09,"Konferenz zur Verarbeitung natürlicher Sprache 2025"
+City,Country,Latitude,Longitude,Event,Year,Date,Full_Title,status
+Banyuls-sur-Mer,France,42.4817,3.1317,École thématique d'été « Annotations »,2022,2022-06-01,École thématique d'été « Annotations »,accepted
+Vilnius,Lithuania,54.6872,25.2797,ICAME 46,2025,2025-06-01,The 46th Annual Conference of the International Computer Archive for Modern and Medieval English - Corpus Linguistics: A New Normal?,accepted
+Mainz,Germany,49.9929,8.2473,Brexit means Brexit? Ein Symposium,2017,2017-12-01,Brexit means Brexit? Ein Symposium - Akademie der Wissenschaften,accepted
+Lancaster,UK,54.0098,-2.7875,BAAL Corpus Linguistics SIG Workshop,2019,2019-11-01,"BAAL Corpus Linguistics Special Interest Group Annual Workshop: Corpora, Discourse and Society",accepted
+Grenoble,France,45.1885,5.7245,Advanced Language Processing Winter School,2021,2021-01-01,Advanced Language Processing Winter School - ALPS,accepted
+Lancaster,UK,54.0098,-2.7875,Machine Learning for Humanists,2021,2021-06-01,Machine Learning for Humanists - N8 CIR,accepted
+Limerick,Ireland,52.6638,-8.6267,CL 2021,2021,2021-07-01,The International Corpus Linguistics Conference 2021,accepted
+Cambridge,UK,52.2055,0.121,ICAME 43,2022,2022-07-01,The 43rd Annual Conference of the International Computer Archive for Modern and Medieval English - Corpus Linguistics: A New Normal?,accepted
+London,UK,51.5074,-0.1278,CHIMED-3,2023,2023-05-01,"CHIMED-3, 3rd International Conference on Historical Medical Discourse",accepted
+Lancaster,UK,54.0098,-2.7875,CL2023,2023,2023-07-01,"CL2023, 12th International Corpus Linguistics Conference",accepted
+Vigo,Spain,42.2407,-8.7207,ICAME 45,2024,2024-06-01,The 45th Annual Conference of the International Computer Archive for Modern and Medieval English - Corpus Linguistics: Interlocking Corpora and Register(s): Diversity and Innovation,accepted
+Lancaster,UK,54.0098,-2.7875,UCREL NLP Summer School 2024,2024,2024-07-01,UCREL NLP Summer School 2024,accepted
+Manchester,UK,53.4630,-2.2320,Towards a National Collection Conference,2024,2024-11-01,Towards a National Collection Conference,accepted
+Manchester,UK,53.4709,-2.2953,BEYOND Conference,2024,2024-11-01,BEYOND Conference,accepted
+Lancaster,UK,54.0098,-2.7875,Digital Humanities Forum,2024,2024-12-01,Digital Humanities Forum,accepted
+Augsburg,Germany,48.3529,10.8865,HLT Augsburg Retreat,2025,2025-04-01,HLT Augsburg Retreat,accepted
+Edge Hill, UK,53.5583,-2.8692,Edge Hill Corpus Research Group,2023,2023-12-01,Edge Hill Corpus Research Group,accepted
+Glasgow, UK, 55.8718,-4.2882,Digital Preservation Toolkit for Community Archives Workshop,2025,2025-02,Digital Preservation Toolkit for Community Archives,accepted
+Birmingham,UK,52.4866,-1.8901,CL2025,2025,2025-07,"CL2025, 13th International Corpus Linguistics Conference",accepted
+Bayreuth,Germany,49.9478,11.5789,CMC,2025,2025-09-03,"The 12th International Conference on CMC and Social Media Corpora for the Humanities",accepted
+Hildesheim,Germany,52.1507,9.9511,KONVENS,2025,2025-09-09,"Konferenz zur Verarbeitung natürlicher Sprache 2025",accepted
+Trier,Germany,49.750,6.637,DGfS 2026,2026,2026-02-24,"48. Jahrestagung der Deutschen Gesellschaft für Sprachwissenschaft",accepted
+Konstanz,Germany,47.678, 9.173,ICAME 47,2026,2026-05-26,"The 47th Annual Conference of the International Computer Archive for Modern and Medieval English",desired
