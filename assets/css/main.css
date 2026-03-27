@@ -168,7 +168,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #1a1c21;
-		font-weight: 350;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -244,7 +244,7 @@ input, select, textarea {
 		}
 
     	hr.rounded {
-			border: 3px solid #b8b8b8;
+			border: 1.5px solid #b8b8b8;
 			border-radius: 7px 7px 7px 7px;
 		}
 	blockquote {
@@ -1840,7 +1840,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 
 /* Form */
@@ -3034,7 +3034,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 	}
@@ -3046,7 +3046,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: 30%;
 			}
 
@@ -3077,7 +3077,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
