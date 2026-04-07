@@ -3,3 +3,4 @@ datasets/.DS_Store
 .DS_Store
 Networks/test.html
 fun/cache/*
+.idea/*
