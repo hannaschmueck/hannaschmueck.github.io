@@ -4,3 +4,4 @@ datasets/.DS_Store
 Networks/test.html
 fun/cache/*
 .idea/*
+*.xcf
