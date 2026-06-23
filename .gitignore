@@ -4,6 +4,5 @@ datasets/.DS_Store
 Networks/test.html
 fun/cache/*
 .idea/*
-*.xcf
-images/fulls/template.xcf
+*template.xcf
 images/fulls/template.xcf
