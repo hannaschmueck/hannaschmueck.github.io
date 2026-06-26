@@ -6,3 +6,4 @@ fun/cache/*
 .idea/*
 *template.xcf
 images/fulls/template.xcf
+images/fulls/ignore.xcf
