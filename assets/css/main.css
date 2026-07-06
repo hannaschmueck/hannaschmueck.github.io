@@ -1843,6 +1843,15 @@ input, select, textarea {
 		font-size: 1.7em;
 	}
 
+	header .inner a.icon {
+    color: #ffffff94;
+    font-size: 1.2em; 
+}
+
+	header .inner a.icon:hover {
+		color: #ffffff9c; 
+		opacity: 0.8;
+	}
 /* Form */
 
 	form {
