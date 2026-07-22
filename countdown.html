@@ -95,12 +95,12 @@
     </div>
 
     <script>
-      var start = new Date("June 23, 2026 08:30:00").getTime();
+      var start = new Date("July 20, 2026 14:47:00").getTime();
       var end1  = new Date("Aug 08, 2026 13:55:00").getTime();
       var end2  = new Date("Jul 10, 2026 18:00:00").getTime();
 
       function fmt(ms) {
-        if (ms <= 0) return "arrived ✓";
+        if (ms <= 0) return "we made it";
         var s = Math.floor(ms / 1000);
         var d = Math.floor(s / 86400);
         var h = Math.floor((s % 86400) / 3600);
