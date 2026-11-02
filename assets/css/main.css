@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -67,6 +69,7 @@ section, summary, time, mark, audio, video {
 	.apa {
 		text-indent: -36px;
 		padding-left: 36px;
+		font-weight: 350;
 		}
 
 
@@ -144,11 +147,14 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #403e3e;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Amarna", sans-serif;
 		font-size: 13pt;
-		font-weight: 400;
+		font-optical-sizing: auto;
+		font-weight: 500;
 		line-height: 1.75em;
 	}
+
+
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -156,20 +162,35 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #6171eb;
+		color: #2e2e60;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #6171eb !important;
+			color: #2e2e60 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
 		color: #1a1c21;
 		font-weight: 600;
+		}
+
+	author {
+		font-weight: 700;
+		text-decoration: underline;
 	}
+
+	navheader {
+		font-family: "Instrument Serif", serif;
+		font-optical-sizing: auto;
+		letter-spacing: 0.03rem;
+		font-weight: 700;
+		font-size: 160%;
+		color: #f2f3f6c8;
+	}
+
 
 	em, i {
 		font-style: italic;
@@ -1899,7 +1920,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #6171eb;
+			border-color: #2e2e60;
 		}
 
 	select {
@@ -2004,7 +2025,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #6171eb;
+			border-color: #2e2e60;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2522,8 +2543,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #6171eb;
-			color: #6171eb !important;
+			border-color: #2e2e60;
+			color: #2e2e60 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2531,8 +2552,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #6171eb;
-			color: #6171eb !important;
+			border-color: #2e2e60;
+			color: #2e2e60 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2575,8 +2596,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #6171eb;
-			border-color: #6171eb;
+			background-color: #2e2e60;
+			border-color: #2e2e60;
 			color: #ffffff !important;
 		}
 
